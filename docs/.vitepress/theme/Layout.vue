@@ -3,10 +3,15 @@ import DefaultTheme from 'vitepress/theme'
 import { useData, inBrowser } from 'vitepress'
 import { watchEffect } from 'vue'
 
-const { lang } = useData()
+const { lang } = useData();
 watchEffect(() => {
   if (inBrowser) {
-    document.cookie = `nf_lang=${lang.value}; expires=Mon, 1 Jan 2030 00:00:00 UTC; path=/`
+    const currentPath = window.location.pathname
+
+    if (!currentPath.startsWith(`/${lang.value}/`)) {
+      const targetPath = `/${lang.value}${currentPath}`
+      window.location.replace(targetPath)
+    }
   }
 })
 </script>
