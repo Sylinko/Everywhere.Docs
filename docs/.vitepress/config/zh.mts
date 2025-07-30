@@ -72,11 +72,29 @@ export const zh = defineConfig({
           { text: '启动', link: '/zh-CN/docs/getting-started/launch' },
         ]
       },
+      {
+        text: '模型服务商',
+        collapsed: true,
+        items: [
+          { text: 'OpenAI', link: '/zh-CN/model-provider/openai' },
+          // { text: 'Azure OpenAI', link: '/zh-CN/model-provider/azure-openai' },
+          // { text: 'Anthropic Claude', link: '/zh-CN/model-provider/anthropic-claude' },
+          // { text: 'Google Gemini', link: '/zh-CN/model-provider/google-gemini' },
+          // { text: 'Ollama', link: '/zh-CN/model-provider/ollama' },
+          // { text: 'DeepSeek', link: '/zh-CN/model-provider/deepseek' },
+          // { text: 'Grok (xAI)', link: '/zh-CN/model-provider/grok' },
+          // { text: 'Cloudflare Workers AI', link: '/zh-CN/model-provider/cloudflare-workers-ai' },
+          // { text: 'GitHub Models', link: '/zh-CN/model-provider/github-models' },
+          // { text: '通义千问', link: '/zh-CN/model-provider/qwen' },
+          // { text: 'LM Studio', link: '/zh-CN/model-provider/lm-studio' },
+          // { text: 'SiliconCloud', link: '/zh-CN/model-provider/siliconcloud' },
+        ]
+      },
     ],
 
     footer: {
       message: '基于 Apache 2.0 许可发布',
-      copyright: `版权所有 © ${new Date().getFullYear()} Dear.Va`
+      copyright: `版权所有 © ${new Date().getFullYear()} DearVa, AuroraZiling, feast107 and contributors.`
     },
   }
 })

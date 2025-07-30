@@ -8,15 +8,15 @@
 
 ## 🌟 使用场景 {#use-cases}
 
-- **💬 上下文提醒**
+- **❔ 疑难杂症专家**
 
-  当您在 Discord 中聊天时，注意到一条关于项目会议的重要消息
+  当您在使用电脑时，弹出了一个错误消息，但您不确定如何解决
 
-  📌 **调用 Everywhere**（通过键盘快捷键）
+  📌 在错误消息旁**唤起 Everywhere**
 
-  🗣️ **命令：**"今晚8点提醒我这件事"
+  🗣️ **命令:** "这是什么错误？如何解决？"
 
-  ✨ **结果：** Everywhere 捕获消息上下文并自动设置包含相关详细信息的日历提醒
+  ✨ **结果:** Everywhere 捕获消息上下文并给出解决方案
 
 - **📰 快速网页摘要**
 
@@ -54,8 +54,8 @@
 
 - ✔️ OpenAI (ChatGPT)
 - ✔️ Azure OpenAI
-- 🚧 Claude
-- 🚧 Gemini
+- 🚧 Anthropic Claude
+- 🚧 Google Gemini
 - 🚧 Ollama
 - 🚧 Grok
 

@@ -8,15 +8,15 @@
 
 ## 🌟 Use Cases {#use-cases}
 
-- **💬 Contextual Reminders**
+- **❔ Troubleshooting Expert**
 
-  You're chatting on Discord and notice an important message about a project meeting.
+ You encounter an error message while using your computer but are unsure how to resolve it.
 
-  📌 **Summon Everywhere** (via a keyboard shortcut)
+  📌 **Summon Everywhere** next to the error message
 
-  🗣️ **Command:** "Remind me about this at 8 PM tonight"
+  🗣️ **Command:** "What is this error? How to solve it?"
 
-  ✨ **Result:** Everywhere captures the message context and automatically sets a calendar reminder with the relevant details.
+  ✨ **Result:** Everywhere captures the message context and provides a solution.
 
 - **📰 Quick Web Summaries**
 
@@ -56,8 +56,8 @@
 
 - ✔️ OpenAI (ChatGPT)
 - ✔️ Azure OpenAI
-- 🚧 Claude
-- 🚧 Gemini
+- 🚧 Anthropic Claude
+- 🚧 Google Gemini
 - 🚧 Ollama
 - 🚧 Grok
 
