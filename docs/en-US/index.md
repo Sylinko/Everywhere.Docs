@@ -18,12 +18,18 @@ hero:
       link: /en-US/docs/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🔍
+    title: Context-Aware
+    details: Intelligently recognizes current screen content, understands app scenarios, and responds instantly.
+  - icon: 🧰
+    title: Multi-Scenario
+    details: Supports one-click reminders, web summarization, instant translation, and email polishing with rich AI features.
+  - icon: 🛠️
+    title: Extensible
+    details: Built with .NET and Avalonia, supports multiple models and MCP tools.
+  - icon: 🫠
+    title: Seamless
+    details: Works natively with your desktop environment—invoke via keyboard shortcuts and interact without switching apps.
 ---
 
 <style>

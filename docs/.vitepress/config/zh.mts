@@ -1,12 +1,67 @@
 import { defineConfig } from 'vitepress'
 
 export const zh = defineConfig({
-  description: "中文描述",
+  description: "随时随地，智能相伴 - Everwhere",
   themeConfig: {
     nav: [
       { text: '主页', link: '/zh-CN/' },
       { text: '文档', link: '/zh-CN/docs/' }
     ],
+
+    notFound: {
+      title: '页面未找到',
+      quote:
+        '我们寻遍了 Everywhere，唯独此处是无人踏足的秘境。',
+      linkLabel: '前往首页',
+      linkText: '带我回首页'
+    },
+
+    // zh-CN specific sidebar configuration Start
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
+    outline: {
+      label: '页面导航'
+    },
+
+    lastUpdated: {
+      text: '最后更新于'
+    },
+
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          "zh-CN": {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换'
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    langMenuLabel: '多语言',
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
+    skipToContentLabel: '跳转到内容',
+    // zh-CN specific search configuration End
 
     sidebar: [
       {
@@ -17,6 +72,11 @@ export const zh = defineConfig({
           { text: '启动', link: '/zh-CN/docs/getting-started/launch' },
         ]
       },
-    ]
+    ],
+
+    footer: {
+      message: '基于 Apache 2.0 许可发布',
+      copyright: `版权所有 © ${new Date().getFullYear()} Dear.Va`
+    },
   }
 })
