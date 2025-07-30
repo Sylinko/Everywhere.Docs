@@ -2,7 +2,7 @@
 
 ## 🤔 What is Everywhere? {#what-is-everywhere}
 
-![banner](/banner.png)
+![banner](/banner.webp)
 
 `Everywhere` is a context-aware, interactive AI assistant built on [.NET](https://dotnet.microsoft.com/) and [Avalonia](https://avaloniaui.net/). Unlike traditional chat interfaces, Everywhere integrates directly into your desktop environment, sensing your screen content, understanding application context, and taking action on your behalf.
 

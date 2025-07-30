@@ -2,7 +2,7 @@
 
 ## 🤔 Everywhere 是什么？ {#what-is-everywhere}
 
-![banner](/banner.png)
+![banner](/banner.webp)
 
 `Everywhere` 是一款基于 [.NET](https://dotnet.microsoft.com/) 和 [Avalonia](https://avaloniaui.net/) 构建的具有上下文感知能力的交互式 AI 助手。与传统的聊天界面不同，Everywhere 直接集成到您的桌面环境中，感知您的屏幕内容，理解应用程序上下文，并代表您采取行动。
 
