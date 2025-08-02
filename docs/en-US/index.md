@@ -44,3 +44,9 @@ div.VPHomeHero span.text {
   color: transparent;
 }
 </style>
+
+<HomeDevelopers/>
+
+<script lang="ts" setup>
+  import HomeDevelopers from "/.vitepress/components/Home/HomeDevelopers.vue";
+</script>

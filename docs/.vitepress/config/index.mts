@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { shared } from './shared.mts'
 import { en } from './en.mts'
 import { zh } from './zh.mts'
+import tailwindcss from "@tailwindcss/vite";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -21,6 +22,9 @@ export default defineConfig({
       dir: 'zh-CN',
       ...zh
     }
-  }
+  },
+  vite: {
+    plugins: [tailwindcss()],
+  },
 })
 
