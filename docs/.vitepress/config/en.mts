@@ -32,7 +32,7 @@ export const en = defineConfig({
           { text: 'OpenAI', link: '/en-US/model-provider/openai' },
           // { text: 'Azure OpenAI', link: '/en-US/model-provider/azure-openai' },
           // { text: 'Anthropic Claude', link: '/en-US/model-provider/anthropic-claude' },
-          // { text: 'Google Gemini', link: '/en-US/model-provider/google-gemini' },
+          { text: 'Google Gemini', link: '/en-US/model-provider/google-gemini' },
           // { text: 'Ollama', link: '/en-US/model-provider/ollama' },
           // { text: 'DeepSeek', link: '/en-US/model-provider/deepseek' },
           // { text: 'Grok (xAI)', link: '/en-US/model-provider/grok' },

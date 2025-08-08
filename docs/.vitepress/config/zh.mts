@@ -79,7 +79,7 @@ export const zh = defineConfig({
           { text: 'OpenAI', link: '/zh-CN/model-provider/openai' },
           // { text: 'Azure OpenAI', link: '/zh-CN/model-provider/azure-openai' },
           // { text: 'Anthropic Claude', link: '/zh-CN/model-provider/anthropic-claude' },
-          // { text: 'Google Gemini', link: '/zh-CN/model-provider/google-gemini' },
+          { text: 'Google Gemini', link: '/zh-CN/model-provider/google-gemini' },
           // { text: 'Ollama', link: '/zh-CN/model-provider/ollama' },
           // { text: 'DeepSeek', link: '/zh-CN/model-provider/deepseek' },
           // { text: 'Grok (xAI)', link: '/zh-CN/model-provider/grok' },
