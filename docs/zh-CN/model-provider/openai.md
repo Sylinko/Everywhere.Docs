@@ -1,6 +1,10 @@
+<script lang="ts" setup>
+  import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
+</script>
+
 # 从 OpenAI 获取 API Key
 
-本教程将一步步指导您完成从注册[OpenAI](https://openai.com)账户到成功创建并配置API密钥的全过程。
+本教程将一步步指导您如何获取[OpenAI](https://openai.com)的API密钥。
 
 ## 准备
 
@@ -14,15 +18,27 @@
 - 使用您准备的电子邮件地址和手机号码[注册 OpenAI 账户](https://platform.openai.com/signup)
 - 登录后，访问[API 密钥页面](https://platform.openai.com/api-keys)，点击`"Create new secret key"`按钮
 
-![Create new secret key](/model-provider/openai/create-new-secret-key.webp){width=600px}
+<HorizontalCenterImg
+    src="/model-provider/openai/create-new-secret-key.webp"
+    alt="Create new secret key"
+    width="600px"
+  />
 
 - 在弹出的对话框中，推荐在`Name`输入框内输入一个描述性的名称（例如：`"Everywhere API Key"`），然后点击`"Create secret key"`按钮
 
-![Create new secret key form](/model-provider/openai/create-new-secret-key-form.webp){width=500px}
+<HorizontalCenterImg
+    src="/model-provider/openai/create-new-secret-key-form.webp"
+    alt="Create new secret key form"
+    width="450px"
+  />
 
 - 成功创建后，您将看到一个 API 密钥，将该密钥复制到 Everywhere 内继续即可。
 
-![Save your key](/model-provider/openai/save-your-key.webp){width=500px}
+<HorizontalCenterImg
+    src="/model-provider/openai/save-your-key.webp"
+    alt="Save your key"
+    width="450px"
+  />
 
 ::: warning
 请务必将 API 密钥妥善保存，因为它只会显示一次。如果您不小心关闭了对话框，可以在 API 密钥页面重新生成一个新的密钥，并删除您忘记保存的旧密钥。
