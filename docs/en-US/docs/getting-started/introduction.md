@@ -48,45 +48,73 @@
 
   ✨ **Result:** Your casual text is transformed into polished, business-ready communication.
 
----
-
 ## 🛠️ Technical Features {#tech}
 
-### 🤖 LLM Support {#llm-support}
-
-- ✔️ OpenAI (ChatGPT)
-- ✔️ Azure OpenAI
-- 🚧 Anthropic Claude
-- 🚧 Google Gemini
-- 🚧 Ollama
-- 🚧 Grok
-
-### ⚙️ Tool Integration {#tools-integration}
-
-- ✔️ Web search
-- 🚧 Model Context Protocol (MCP) tools
-- 🚧 System APIs
-- 🚧 File operations
-
-### 🫧 Interface {#interfaces}
-
-- ✔️ Keyboard shortcuts
-- ✔️ Markdown rendering
-- ✔️ Code syntax highlighting
-- 🚧 LaTeX support
-- 🚧 Voice input
-- 🚧 Advanced formatting options
-
-### 🖥️ Platform Support {#platforms}
-
-- ✔️ Windows *minimum 10.0.19041.0*
-- 🚧 macOS
-- 🚧 Linux
-
-### 🌐 Languages {#languages}
-
-- ✔️ Simplified Chinese
-- ✔️ English
-
-<a href="https://crowdin.com/project/everywhere" rel="nofollow" target="_blank"><img style="width:140;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x" alt="Crowdin | Everywhere" /></a>
-Contributions are welcome!
+<table>
+  <thead>
+    <tr>
+      <th width="28%">Category</th>
+      <th width="35%">✅ Currently Supported</th>
+      <th width="41%">🚧 Work in Progress</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>🤖 LLM Support</b></td>
+      <td>
+        • OpenAI (ChatGPT)<br>
+        • Azure OpenAI
+      </td>
+      <td>
+        • Claude<br>
+        • Gemini<br>
+        • Ollama<br>
+        • Grok
+      </td>
+    </tr>
+    <tr>
+      <td><b>⚙️ Tool Integration</b></td>
+      <td>
+        • Web Search
+      </td>
+      <td>
+        • Model Context Protocol (MCP) tools<br>
+        • System APIs
+      </td>
+    </tr>
+    <tr>
+      <td><b>🫧 Interface</b></td>
+      <td>
+        • Keyboard shortcuts<br>
+        • Markdown rendering<br>
+        • Code syntax highlighting
+      </td>
+      <td>
+        • LaTeX support<br>
+        • Voice input<br>
+        • Advanced formatting options
+      </td>
+    </tr>
+    <tr>
+      <td><b>🖥️ Platform Support</b></td>
+      <td>
+        • Windows
+      </td>
+      <td>
+        • macOS<br>
+        • Linux
+      </td>
+    </tr>
+    <tr>
+      <td><b>🌐 Language Support</b></td>
+      <td>
+        • 简体中文<br>
+        • English
+      </td>
+      <td>
+        <i>(contributions welcome)</i>
+        <a href="https://crowdin.com/project/everywhere" rel="nofollow" target="_blank"><img style="width:140;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x" alt="Crowdin | Everywhere" /></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
