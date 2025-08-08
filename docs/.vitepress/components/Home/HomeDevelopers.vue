@@ -49,6 +49,6 @@ const members = computed(() => [
 <template>
   <div class="justify-items-center">
     <h2> {{ t('Core Members') }} </h2>
-    <VPTeamMembers class="w-full px-32" size="small" :members="members" />
+    <VPTeamMembers class="w-full" size="small" :members="members" />
   </div>
 </template> 
