@@ -35,6 +35,7 @@ export const en = defineConfig({
           { text: 'Google Gemini', link: '/en-US/model-provider/google-gemini' },
           // { text: 'Ollama', link: '/en-US/model-provider/ollama' },
           { text: 'DeepSeek', link: '/en-US/model-provider/deepseek' },
+          { text: 'Moonshot (Kimi)', link: '/en-US/model-provider/moonshot' },
           // { text: 'Grok (xAI)', link: '/en-US/model-provider/grok' },
           // { text: 'Cloudflare Workers AI', link: '/en-US/model-provider/cloudflare-workers-ai' },
           // { text: 'GitHub Models', link: '/en-US/model-provider/github-models' },

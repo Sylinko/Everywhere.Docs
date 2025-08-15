@@ -82,6 +82,7 @@ export const zh = defineConfig({
           { text: 'Google Gemini', link: '/zh-CN/model-provider/google-gemini' },
           // { text: 'Ollama', link: '/zh-CN/model-provider/ollama' },
           { text: 'DeepSeek', link: '/zh-CN/model-provider/deepseek' },
+          { text: 'Moonshot (Kimi)', link: '/zh-CN/model-provider/moonshot' },
           // { text: 'Grok (xAI)', link: '/zh-CN/model-provider/grok' },
           // { text: 'Cloudflare Workers AI', link: '/zh-CN/model-provider/cloudflare-workers-ai' },
           // { text: 'GitHub Models', link: '/zh-CN/model-provider/github-models' },

@@ -50,10 +50,6 @@ This tutorial starts from Google Cloud, not by creating an API key directly in A
     width="600px"
   />
 
-::: warning
-Please be sure to save your API key properly, as it will only be displayed once. If you accidentally close the dialog box, you can generate a new key on the API keys page and delete the old key that you forgot to save.
-:::
-
 ::: danger
 Please note that the API key is sensitive information. Do not disclose it to anyone or share it in public.
 :::
