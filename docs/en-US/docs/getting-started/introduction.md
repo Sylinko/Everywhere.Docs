@@ -50,26 +50,61 @@
 
 ## 🛠️ Technical Features {#tech}
 
+<style scoped>
+  div.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+</style>
+
 <table>
   <thead>
     <tr>
-      <th width="28%">Category</th>
-      <th width="35%">✅ Currently Supported</th>
-      <th width="41%">🚧 Work in Progress</th>
+      <th style="width:28%">Category</th>
+      <th style="width:35%">✅ Currently Supported</th>
+      <th style="width:41%">🚧 Work in Progress</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><b>🤖 LLM Support</b></td>
       <td>
-        • OpenAI (ChatGPT)<br>
-        • Azure OpenAI
+        <div class="icon-text">
+          <img alt="OpenAI logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openai.svg">
+          <span>OpenAI (ChatGPT)</span>
+        </div>
+        <div class="icon-text">
+          <img alt="Anthropic logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/anthropic.svg">
+          <span>Anthropic (Claude)</span>
+        </div>
+        <div class="icon-text">
+          <img alt="Google logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/gemini-color.svg">
+          <span>Google (Gemini)</span>
+        </div>
+        <div class="icon-text">
+          <img alt="DeepSeek logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/deepseek-color.svg">
+          <span>DeepSeek</span>
+        </div>
+        <div class="icon-text">
+          <img alt="Moonshot logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/moonshot.svg">
+          <span>Moonshot (Kimi)</span>
+        </div>
+        <div class="icon-text">
+          <img alt="OpenRouter logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/openrouter.svg">
+          <span>OpenRouter</span>
+        </div>
+        <div class="icon-text">
+          <img alt="SiliconFlow logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/siliconcloud-color.svg">
+          <span>SiliconFlow</span>
+        </div>
+        <div class="icon-text">
+          <img alt="ollama logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/ollama.svg">
+          <span>ollama</span>
+        </div>
       </td>
       <td>
-        • Claude<br>
-        • Gemini<br>
-        • Ollama<br>
-        • Grok
+        • Official API support<br>
       </td>
     </tr>
     <tr>
@@ -78,21 +113,20 @@
         • Web Search
       </td>
       <td>
-        • Model Context Protocol (MCP) tools<br>
-        • System APIs
+        • System APIs<br>
+        • MCP tools<br>
       </td>
     </tr>
     <tr>
       <td><b>🫧 Interface</b></td>
       <td>
+        • Modern Frosted Glass UI<br>
+        • Context-aware invocation<br>
         • Keyboard shortcuts<br>
         • Markdown rendering<br>
-        • Code syntax highlighting
       </td>
       <td>
-        • LaTeX support<br>
         • Voice input<br>
-        • Advanced formatting options
       </td>
     </tr>
     <tr>
@@ -112,8 +146,17 @@
         • English
       </td>
       <td>
-        <i>(contributions welcome)</i>
-        <a href="https://crowdin.com/project/everywhere" rel="nofollow" target="_blank"><img style="width:140;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x" alt="Crowdin | Everywhere" /></a>
+        • Deutsch<br>
+        • Español<br>
+        • Français<br>
+        • Italiano<br>
+        • 日本語<br>
+        • 한국어<br>
+        • Русский<br>
+        • 中文 (繁體)<br>
+        • 中文 (繁體 香港特別行政區)<br><br>
+        <b>Contributions Welcome</b><br>
+        <a href="https://crowdin.com/project/everywhere" rel="nofollow" target="_blank"><img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x" alt="Crowdin | Everywhere" /></a>
       </td>
     </tr>
   </tbody>
