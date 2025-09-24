@@ -6,6 +6,10 @@
 
 本教程将一步步指导您如何获取[Google Gemini](https://cloud.google.com/gemini)的API密钥。
 
+::: tip
+Gemini API 的一个显著优势是其慷慨的免费套餐，这在许多其他服务商中并不常见，您每天都可以获得一定配额的免费 API 调用。
+:::
+
 ::: warning
 本教程将会从 Google Cloud 出发，而非直接在 AI Studio 创建新的 API 密钥。
 :::

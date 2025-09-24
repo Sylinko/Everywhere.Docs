@@ -6,6 +6,10 @@
 
 This tutorial will guide you step-by-step on how to get an API key for [Google Gemini](https://cloud.google.com/gemini).
 
+::: tip
+One of the great benefits of the Gemini API is its generous free tier. You get a daily quota of API calls at no cost — an advantage not commonly found with other providers.
+:::
+
 ::: warning
 This tutorial starts from Google Cloud, not by creating an API key directly in AI Studio.
 :::
