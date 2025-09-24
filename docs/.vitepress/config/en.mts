@@ -30,11 +30,11 @@ export const en = defineConfig({
         collapsed: true,
         items: [
           { text: 'OpenAI', link: '/en-US/model-provider/openai' },
-          // { text: 'Anthropic (Claude)', link: '/en-US/model-provider/anthropic-claude' },
+          { text: 'Anthropic (Claude)', link: '/en-US/model-provider/anthropic' },
           { text: 'Google (Gemini)', link: '/en-US/model-provider/google' },
           { text: 'DeepSeek', link: '/en-US/model-provider/deepseek' },
           { text: 'Moonshot (Kimi)', link: '/en-US/model-provider/moonshot' },
-          // { text: 'OpenRouter', link: '/en-US/model-provider/openrouter' },
+          { text: 'OpenRouter', link: '/en-US/model-provider/openrouter' },
           { text: 'SiliconCloud (SiliconFlow)', link: '/en-US/model-provider/siliconcloud' },
           // { text: 'Ollama', link: '/en-US/model-provider/ollama' },
         ]

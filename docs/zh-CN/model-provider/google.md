@@ -11,6 +11,10 @@ Gemini API 的一个显著优势是其慷慨的免费套餐，这在许多其他
 :::
 
 ::: warning
+Google Gemini 目前仅支持部分国家和地区访问，若您所在地区不受支持，建议使用其他模型提供商。
+:::
+
+::: warning
 本教程将会从 Google Cloud 出发，而非直接在 AI Studio 创建新的 API 密钥。
 :::
 

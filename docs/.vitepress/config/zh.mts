@@ -77,7 +77,7 @@ export const zh = defineConfig({
         collapsed: true,
         items: [
           { text: 'OpenAI', link: '/zh-CN/model-provider/openai' },
-          // { text: 'Anthropic (Claude)', link: '/zh-CN/model-provider/anthropic-claude' },
+          { text: 'Anthropic (Claude)', link: '/zh-CN/model-provider/anthropic' },
           { text: 'Google (Gemini)', link: '/zh-CN/model-provider/google' },
           { text: 'DeepSeek', link: '/zh-CN/model-provider/deepseek' },
           { text: 'Moonshot (Kimi)', link: '/zh-CN/model-provider/moonshot' },
