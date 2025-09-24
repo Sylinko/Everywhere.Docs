@@ -10,7 +10,9 @@ export const shared = defineConfig({
   themeConfig: {
     logo: { src: '/favicon.ico', width: 24, height: 24 },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/DearVa/Everywhere' }
+      { icon: 'github', link: 'https://github.com/DearVa/Everywhere' },
+      { icon: 'discord', link: 'https://discord.gg/5fyg6nE3yn' },
+      { icon: 'qq', link: 'https://qm.qq.com/cgi-bin/qm/qr?k=wp9aDBBnLc7pYATqT99tB-N2ZP2ETmJC&jump_from=webapi&authKey=97qUJfsQoI70dUNcgBZ0C3HCZeiEn8inLT7pzg8x+KinbQwfIrHFu3dB2+aHMbRD' }
     ],
     search: {   
       provider: 'local',
