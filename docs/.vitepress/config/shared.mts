@@ -7,6 +7,10 @@ export const shared = defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
 
+  sitemap: {
+    hostname: 'https://everywhere.nekora.dev'
+  },
+
   themeConfig: {
     logo: { src: '/favicon.ico', width: 24, height: 24 },
     socialLinks: [
