@@ -4,9 +4,10 @@ export const shared = defineConfig({
   title: "Everywhere",
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { name: 'google-site-verification', content: '_vNAIrbnMzmzFhIUC2dWVCycGikEcoRlWOcVESkdb5o' }],
   ],
-
+  
   sitemap: {
     hostname: 'https://everywhere.nekora.dev'
   },
