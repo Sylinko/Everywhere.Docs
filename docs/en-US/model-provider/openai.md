@@ -11,7 +11,6 @@ This tutorial will guide you step-by-step on how to obtain an API key from [Open
   - A valid email address for account registration
   - An international mobile phone number for account security verification
   - If you need to use OpenAI API's paid services, you will also need a valid international credit card
-  - If you are in mainland China, please ensure you can access OpenAI's services
 
 ## Steps
 

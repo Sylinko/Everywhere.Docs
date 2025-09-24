@@ -81,7 +81,7 @@ export const zh = defineConfig({
           { text: 'Google (Gemini)', link: '/zh-CN/model-provider/google' },
           { text: 'DeepSeek', link: '/zh-CN/model-provider/deepseek' },
           { text: 'Moonshot (Kimi)', link: '/zh-CN/model-provider/moonshot' },
-          // { text: 'OpenRouter', link: '/zh-CNs/model-provider/openrouter' },
+          { text: 'OpenRouter', link: '/zh-CN/model-provider/openrouter' },
           { text: 'SiliconCloud (硅基流动)', link: '/zh-CN/model-provider/siliconcloud' },
           // { text: 'Ollama', link: '/zh-CN/model-provider/ollama' },
         ]
