@@ -24,7 +24,7 @@ This tutorial starts from Google Cloud, not by creating an API key directly in A
   - After logging in, find the current default project, usually "**My First Project**," in the top left corner of the page. Click it to open the **Project selector**.
 
 <HorizontalCenterImg
-    src="/model-provider/google-gemini/project-manager.webp"
+    src="/model-provider/google/project-manager.webp"
     alt="Project Manager"
     width="600px"
   />
@@ -32,7 +32,7 @@ This tutorial starts from Google Cloud, not by creating an API key directly in A
   - In the Project selector, click the "**New Project**" button in the top right corner. This will take you to a new page where you can enter a project name. The organization field can be left blank.
 
 <HorizontalCenterImg
-    src="/model-provider/google-gemini/create-project.webp"
+    src="/model-provider/google/create-project.webp"
     alt="Create project"
     width="500px"
   />
@@ -41,7 +41,7 @@ This tutorial starts from Google Cloud, not by creating an API key directly in A
   - Once logged in, find the "**Create API Key**" button in the top right corner of the page. Click it, and in the pop-up window, select the project you just created.
 
 <HorizontalCenterImg
-    src="/model-provider/google-gemini/create-api-key-project-selection.webp"
+    src="/model-provider/google/create-api-key-project-selection.webp"
     alt="Create API Key - Project Selection"
     width="400px"
   />
@@ -49,7 +49,7 @@ This tutorial starts from Google Cloud, not by creating an API key directly in A
   - Click "**Create API key in existing project**." Your new API key will be displayed once it's created. Copy this key into Everywhere to proceed.
 
 <HorizontalCenterImg
-    src="/model-provider/google-gemini/api-key.webp"
+    src="/model-provider/google/api-key.webp"
     alt="API Key"
     width="600px"
   />

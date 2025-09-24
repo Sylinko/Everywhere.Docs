@@ -24,7 +24,7 @@ Gemini API 的一个显著优势是其慷慨的免费套餐，这在许多其他
 - 登录后，在页面左上方找到当前的默认项目，通常是*My First Project*，点击弹出**项目选择器**。
 
 <HorizontalCenterImg
-    src="/model-provider/google-gemini/project-manager.webp"
+    src="/model-provider/google/project-manager.webp"
     alt="Project Manager"
     width="600px"
   />
@@ -32,7 +32,7 @@ Gemini API 的一个显著优势是其慷慨的免费套餐，这在许多其他
 - 在项目选择器中，点击右上角的**New project**按钮，您将会跳转到一个新页面。在此处，您可以随意填上项目名称，无归属组织。
 
 <HorizontalCenterImg
-    src="/model-provider/google-gemini/create-project.webp"
+    src="/model-provider/google/create-project.webp"
     alt="Create project"
     width="500px"
   />
@@ -41,7 +41,7 @@ Gemini API 的一个显著优势是其慷慨的免费套餐，这在许多其他
 - 登录后，在页面右上方找到**Create API Key**按钮，点击后，在弹出的窗口内，选择我们刚刚的项目：
 
 <HorizontalCenterImg
-    src="/model-provider/google-gemini/create-api-key-project-selection.webp"
+    src="/model-provider/google/create-api-key-project-selection.webp"
     alt="Create API Key - Project Selection"
     width="400px"
   />
@@ -49,7 +49,7 @@ Gemini API 的一个显著优势是其慷慨的免费套餐，这在许多其他
 - 点击**Create API Key in existing project**，创建成功后会显示您的 API 密钥。将此密钥复制到 Everywhere 继续。
 
 <HorizontalCenterImg
-    src="/model-provider/google-gemini/api-key.webp"
+    src="/model-provider/google/api-key.webp"
     alt="API Key"
     width="600px"
   />

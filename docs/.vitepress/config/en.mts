@@ -35,7 +35,7 @@ export const en = defineConfig({
           { text: 'DeepSeek', link: '/en-US/model-provider/deepseek' },
           { text: 'Moonshot (Kimi)', link: '/en-US/model-provider/moonshot' },
           // { text: 'OpenRouter', link: '/en-US/model-provider/openrouter' },
-          // { text: 'SiliconCloud (SiliconFlow)', link: '/en-US/model-provider/siliconcloud' },
+          { text: 'SiliconCloud (SiliconFlow)', link: '/en-US/model-provider/siliconcloud' },
           // { text: 'Ollama', link: '/en-US/model-provider/ollama' },
         ]
       },

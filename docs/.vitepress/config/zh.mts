@@ -82,7 +82,7 @@ export const zh = defineConfig({
           { text: 'DeepSeek', link: '/zh-CN/model-provider/deepseek' },
           { text: 'Moonshot (Kimi)', link: '/zh-CN/model-provider/moonshot' },
           // { text: 'OpenRouter', link: '/zh-CNs/model-provider/openrouter' },
-          // { text: 'SiliconCloud (SiliconFlow)', link: '/zh-CN/model-provider/siliconcloud' },
+          { text: 'SiliconCloud (硅基流动)', link: '/zh-CN/model-provider/siliconcloud' },
           // { text: 'Ollama', link: '/zh-CN/model-provider/ollama' },
         ]
       },
