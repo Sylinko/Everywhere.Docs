@@ -43,7 +43,7 @@ export const en = defineConfig({
 
     footer: {
       message: 'Released under the Apache 2.0 License.',
-      copyright: `Copyright © ${new Date().getFullYear()} DearVa, AuroraZiling, feast107 and contributors. All rights reserved.`
+      copyright: `Copyright © ${new Date().getFullYear()} DearVa, AuroraZiling and contributors. All rights reserved.`
     },
   }
 })

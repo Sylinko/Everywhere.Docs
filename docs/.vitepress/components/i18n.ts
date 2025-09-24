@@ -5,6 +5,9 @@ export const pairs = {
   'Lead Developer': '核心开发',
   'Product Operations': '产品运营',
   'Full Stack Developer': '全栈开发',
+  'Supported Models': '主流大模型支持',
+  'The development is guided by 2 drop-out students.': '项目主要由两名辍学生开发。',
+  'Our campus is the world; our vision is to be Everywhere.': '世界就是我们的校园，我们的愿景无处不在。',
 }
 
 import { useData } from 'vitepress'

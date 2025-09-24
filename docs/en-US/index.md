@@ -45,8 +45,12 @@ div.VPHomeHero span.text {
 }
 </style>
 
-<HomeDevelopers/>
+<div class="mt-12 mb-24 space-y-20">
+  <HomeSupportedModels/>
+  <HomeDevelopers/>
+</div>
 
 <script lang="ts" setup>
+  import HomeSupportedModels from "/.vitepress/components/Home/HomeSupportedModels.vue";
   import HomeDevelopers from "/.vitepress/components/Home/HomeDevelopers.vue";
 </script>

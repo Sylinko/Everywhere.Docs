@@ -10,6 +10,7 @@ export const shared = defineConfig({
   sitemap: {
     hostname: 'https://everywhere.nekora.dev'
   },
+  lastUpdated: true,
 
   themeConfig: {
     logo: { src: '/favicon.ico', width: 24, height: 24 },
