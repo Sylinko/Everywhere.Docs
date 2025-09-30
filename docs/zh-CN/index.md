@@ -35,11 +35,11 @@ features:
 <style>
 :root {
   --vp-home-hero-name-color: var(--vp-home-hero-name-color);
-  --vp-home-hero-image-background-image: -webkit-linear-gradient(120deg, #9955E9, #7CBDED);
+  --vp-home-hero-image-background-image: -webkit-linear-gradient(60deg, #F5D10D 5%, #E955A3 35%, #7CBDED 75%);
   --vp-home-hero-image-filter: blur(60px);
 }
 div.VPHomeHero span.text {
-  background: -webkit-linear-gradient(120deg, #9955E9, #7CBDED);
+  background: -webkit-linear-gradient(120deg, #F5D10D 5%, #E955A3 35%, #7CBDED 75%);
   -webkit-background-clip: text;
   color: transparent;
 }

@@ -39,6 +39,13 @@ export const en = defineConfig({
           // { text: 'Ollama', link: '/en-US/model-provider/ollama' },
         ]
       },
+      {
+        text: 'Plugins',
+        collapsed: true,
+        items: [
+          { text: 'Web Search', link: '/en-US/plugins/web-search' },
+        ]
+      },
     ],
 
     footer: {
