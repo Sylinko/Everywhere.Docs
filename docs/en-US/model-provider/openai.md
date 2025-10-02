@@ -8,14 +8,14 @@ This tutorial will guide you step-by-step on how to obtain an API key from [Open
 
 ## Preparation
 
-  - A valid email address for account registration
-  - An international mobile phone number for account security verification
-  - If you need to use OpenAI API's paid services, you will also need a valid international credit card
+- A valid email address for account registration
+- An international mobile phone number for account security verification
+- If you need to use OpenAI API's paid services, you will also need a valid international credit card
 
 ## Steps
 
-  - [Register for an OpenAI account](https://platform.openai.com/signup) using your prepared email address and mobile number.
-  - After logging in, visit the [API keys page](https://platform.openai.com/api-keys) and click the `"Create new secret key"` button.
+- [Register for an OpenAI account](https://platform.openai.com/signup) using your prepared email address and mobile number.
+- After logging in, visit the [API keys page](https://platform.openai.com/api-keys) and click the `"Create new secret key"` button.
 
 <HorizontalCenterImg
     src="/model-provider/openai/create-new-secret-key.webp"
@@ -23,7 +23,7 @@ This tutorial will guide you step-by-step on how to obtain an API key from [Open
     width="600px"
   />
 
-  - In the dialog box that pops up, it is recommended to enter a descriptive name in the `Name` input box (e.g., `"Everywhere API Key"`), then click the `"Create secret key"` button.
+- In the dialog box that pops up, it is recommended to enter a descriptive name in the `Name` input box (e.g., `"Everywhere API Key"`), then click the `"Create secret key"` button.
 
 <HorizontalCenterImg
     src="/model-provider/openai/create-new-secret-key-form.webp"
@@ -31,7 +31,7 @@ This tutorial will guide you step-by-step on how to obtain an API key from [Open
     width="450px"
   />
 
-  - After successful creation, you will see an API key. Copy this key into Everywhere to proceed.
+- After successful creation, you will see an API key. Copy this key into Everywhere to proceed.
 
 <HorizontalCenterImg
     src="/model-provider/openai/save-your-key.webp"

@@ -22,7 +22,7 @@ export const en = defineConfig({
         items: [
           { text: 'Introduction', link: '/en-US/docs/getting-started/introduction' },
           { text: 'Installation', link: '/en-US/docs/getting-started/installation' },
-          { text: 'Launch', link: '/en-US/docs/getting-started/launch' },
+          { text: 'Use', link: '/en-US/docs/getting-started/use' },
         ]
       },
       {

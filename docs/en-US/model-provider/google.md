@@ -16,12 +16,12 @@ This tutorial starts from Google Cloud, not by creating an API key directly in A
 
 ## Preparation
 
-  - A Google account
+- A Google account
 
 ## Steps
 
-  - Go to the [Google Cloud Console](https://console.cloud.google.com/) and log in to your account.
-  - After logging in, find the current default project, usually "**My First Project**," in the top left corner of the page. Click it to open the **Project selector**.
+- Go to the [Google Cloud Console](https://console.cloud.google.com/) and log in to your account.
+- After logging in, find the current default project, usually "**My First Project**," in the top left corner of the page. Click it to open the **Project selector**.
 
 <HorizontalCenterImg
     src="/model-provider/google/project-manager.webp"
@@ -29,7 +29,7 @@ This tutorial starts from Google Cloud, not by creating an API key directly in A
     width="600px"
   />
 
-  - In the Project selector, click the "**New Project**" button in the top right corner. This will take you to a new page where you can enter a project name. The organization field can be left blank.
+- In the Project selector, click the "**New Project**" button in the top right corner. This will take you to a new page where you can enter a project name. The organization field can be left blank.
 
 <HorizontalCenterImg
     src="/model-provider/google/create-project.webp"
@@ -37,8 +37,8 @@ This tutorial starts from Google Cloud, not by creating an API key directly in A
     width="500px"
   />
 
-  - After successfully creating the project, go to [Google AI Studio](https://aistudio.google.com/app/apikey) and log in to your account.
-  - Once logged in, find the "**Create API Key**" button in the top right corner of the page. Click it, and in the pop-up window, select the project you just created.
+- After successfully creating the project, go to [Google AI Studio](https://aistudio.google.com/app/apikey) and log in to your account.
+- Once logged in, find the "**Create API Key**" button in the top right corner of the page. Click it, and in the pop-up window, select the project you just created.
 
 <HorizontalCenterImg
     src="/model-provider/google/create-api-key-project-selection.webp"
@@ -46,7 +46,7 @@ This tutorial starts from Google Cloud, not by creating an API key directly in A
     width="400px"
   />
 
-  - Click "**Create API key in existing project**." Your new API key will be displayed once it's created. Copy this key into Everywhere to proceed.
+- Click "**Create API key in existing project**." Your new API key will be displayed once it's created. Copy this key into Everywhere to proceed.
 
 <HorizontalCenterImg
     src="/model-provider/google/api-key.webp"

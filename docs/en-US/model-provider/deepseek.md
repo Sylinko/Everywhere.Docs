@@ -8,15 +8,15 @@ This tutorial will guide you step-by-step on how to get an API key for [DeepSeek
 
 ## Steps
 
-  - Go to the [DeepSeek Platform](https://platform.deepseek.com/) and register & log in to your account.
-  - After logging in, navigate to **API keys** in the left sidebar.
+- Go to the [DeepSeek Platform](https://platform.deepseek.com/) and register & log in to your account.
+- After logging in, navigate to **API keys** in the left sidebar.
 
 <HorizontalCenterImg
     src="/model-provider/deepseek/platform-api-keys.webp" 
     alt="API keys page"
   />
 
-  - Click the **创建 API key** button, and a dialog will pop up where you can enter a name for the API key to help you remember its purpose.
+- Click the **创建 API key** button, and a dialog will pop up where you can enter a name for the API key to help you remember its purpose.
 
 <HorizontalCenterImg
     src="/model-provider/deepseek/platform-create-api-key.webp"
@@ -24,7 +24,7 @@ This tutorial will guide you step-by-step on how to get an API key for [DeepSeek
     width="400px"
   />
 
-  - Click the **创建** button. Upon success, your API key will be displayed. Copy this key to Everywhere to continue.
+- Click the **创建** button. Upon success, your API key will be displayed. Copy this key to Everywhere to continue.
 
 <HorizontalCenterImg
     src="/model-provider/deepseek/platform-generate-api-key.webp"
