@@ -34,6 +34,11 @@ const models = computed(() => [
     inversedIconColor: true
   },
   {
+    iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/siliconcloud-color.svg',
+    link: 'https://www.siliconflow.cn/',
+    title: 'SiliconCloud'
+  },
+  {
     iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/ollama.svg',
     link: 'https://ollama.com/',
     title: 'Ollama',
@@ -71,8 +76,9 @@ const models = computed(() => [
 .supported-models-container {
   display: flex;
   flex-wrap: wrap;
+  width: 70%;
   justify-content: center;
-  gap: 16px;
+  gap: 10px;
   margin-top: 24px;
 }
 
