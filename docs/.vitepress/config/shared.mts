@@ -8,7 +8,7 @@ export const shared = defineConfig({
   ],
 
   sitemap: {
-    hostname: 'https://everywhere.nekora.dev'
+    hostname: 'https://everywhere.sylinko.com'
   },
   lastUpdated: true,
 
