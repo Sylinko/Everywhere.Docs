@@ -39,3 +39,9 @@ Please be sure to save your API key properly, as it will only be displayed once.
 ::: danger
 Please note that the API key is sensitive information. Do not disclose it to anyone or share it in public.
 :::
+
+## FAQ
+
+### Why do I get a `PaymentRequired` error when adding a DeepSeek API Key?
+
+If you encounter an `HTTP request error (PaymentRequired): Unknown error, please try again later.` when adding a DeepSeek API key in Everywhere, it usually means your DeepSeek account has an insufficient balance. You need to top up your account on the DeepSeek platform to continue using the API.

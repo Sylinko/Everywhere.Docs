@@ -39,3 +39,9 @@
 ::: danger
 请注意，API 密钥是敏感信息，请不要将其泄露给任何人或在公共场合分享。
 :::
+
+## 常见问题
+
+### 为什么在添加 DeepSeek API Key (验证有效性) 时会收到 `PaymentRequired` 错误？
+
+如果您在 Everywhere 中添加 DeepSeek API 密钥时遇到 `HTTP 请求错误(PaymentRequired): 未知错误，请稍后再试。`，这通常意味着您的 DeepSeek 账户余额不足。您需要前往 DeepSeek 平台为您的账户充值后才能继续使用该 API。
