@@ -2,7 +2,7 @@
   import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
 </script>
 
-# Getting an API Key from Google Gemini
+# Get API Key from Google Gemini
 
 This tutorial will guide you step-by-step on how to get an API key for [Google Gemini](https://cloud.google.com/gemini).
 

@@ -2,7 +2,7 @@
   import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
 </script>
 
-# Getting an API Key from Anthropic Claude
+# Get API Key from Anthropic Claude
 
 This tutorial will guide you step-by-step on how to get an API key for [Anthropic Claude](https://www.anthropic.com/).
 

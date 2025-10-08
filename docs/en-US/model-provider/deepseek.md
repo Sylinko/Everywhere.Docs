@@ -2,7 +2,7 @@
   import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
 </script>
 
-# Getting an API Key from DeepSeek
+# Get API Key from DeepSeek
 
 This tutorial will guide you step-by-step on how to get an API key for [DeepSeek](https://www.deepseek.com).
 

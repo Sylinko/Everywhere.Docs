@@ -2,7 +2,7 @@
   import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
 </script>
 
-# Getting an API Key from OpenRouter
+# Get API Key from OpenRouter
 
 This tutorial will guide you step-by-step on how to get an API key for [OpenRouter](https://openrouter.ai/).
 

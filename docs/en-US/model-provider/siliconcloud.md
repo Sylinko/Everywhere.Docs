@@ -2,7 +2,7 @@
   import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
 </script>
 
-# Getting an API Key from SiliconCloud (SiliconFlow)
+# Get API Key from SiliconCloud (SiliconFlow)
 
 This tutorial will guide you step-by-step on how to get an API key for [SiliconCloud (SiliconFlow)](https://siliconflow.cn/).
 

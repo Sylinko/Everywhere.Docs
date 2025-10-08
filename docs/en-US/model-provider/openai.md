@@ -2,7 +2,7 @@
   import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
 </script>
 
-# Getting an API Key from OpenAI
+# Get API Key from OpenAI
 
 This tutorial will guide you step-by-step on how to obtain an API key from [OpenAI](https://openai.com).
 

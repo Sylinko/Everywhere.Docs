@@ -39,6 +39,12 @@ const models = computed(() => [
     title: 'SiliconCloud'
   },
   {
+    iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/1.69.1/files/icons/xai.svg',
+    link: 'https://x.ai/',
+    title: 'xAI (Grok)',
+    inversedIconColor: true
+  },
+  {
     iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/ollama.svg',
     link: 'https://ollama.com/',
     title: 'Ollama',
