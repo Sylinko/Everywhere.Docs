@@ -37,7 +37,7 @@ export const en = defineConfig({
           { text: 'OpenRouter', link: '/en-US/model-provider/openrouter' },
           { text: 'SiliconCloud (SiliconFlow)', link: '/en-US/model-provider/siliconcloud' },
           { text: 'xAI (Grok)', link: '/en-US/model-provider/xai' },
-          // { text: 'Ollama', link: '/en-US/model-provider/ollama' },
+          { text: 'Ollama', link: '/en-US/model-provider/ollama' },
         ]
       },
       {
