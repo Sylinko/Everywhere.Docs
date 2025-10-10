@@ -29,7 +29,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 登录后，在页面左上方找到当前的默认项目，通常是*My First Project*，点击弹出**项目选择器**。
 
 <HorizontalCenterImg
-    src="/plugins/web-search/project-manager.webp"
+    src="/plugins/web-search/google/project-manager.webp"
     alt="项目选择器"
     width="600px"
   />
@@ -37,7 +37,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 在项目选择器中，点击右上角的**New project**按钮，您将会跳转到一个新页面。在此处，您可以随意填上项目名称，无归属组织。
 
 <HorizontalCenterImg
-    src="/plugins/web-search/create-project.webp"
+    src="/plugins/web-search/google/create-project.webp"
     alt="创建项目"
     width="500px"
   />
@@ -45,7 +45,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 成功创建后，前往[可编程搜索引擎控制台](https://programmablesearchengine.google.com/controlpanel/all)，点击右上角的**Add**按钮。
 
 <HorizontalCenterImg
-    src="/plugins/web-search/create-new-search-engine.webp"
+    src="/plugins/web-search/google/create-new-search-engine.webp"
     alt="创建搜索引擎"
     width="500px"
   />
@@ -53,7 +53,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 在表单中，在 **Name your search engine** 的输入框中填入方便记忆的名称，将**What to search?** 选为 **Search the entire web**，其他设置项保持默认。通过人机验证后，点击**Create**。
 
 <HorizontalCenterImg
-    src="/plugins/web-search/new-search-engine-form.webp"
+    src="/plugins/web-search/google/new-search-engine-form.webp"
     alt="配置搜索引擎"
     width="500px"
   />
@@ -61,7 +61,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 之后提示创建成功，点击**Customize**进入管理页面。
 
 <HorizontalCenterImg
-    src="/plugins/web-search/create-new-search-engine-success.webp"
+    src="/plugins/web-search/google/create-new-search-engine-success.webp"
     alt="创建成功"
     width="500px"
   />
@@ -69,7 +69,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 在**Basic**卡片中，找到**Search engine ID**，复制该 ID 至 Everywhere 的**搜索引擎 ID**配置项中。
 
 <HorizontalCenterImg
-    src="/plugins/web-search/get-search-engine-id.webp"
+    src="/plugins/web-search/google/get-search-engine-id.webp"
     alt="搜索引擎 ID"
     width="500px"
   />
@@ -77,7 +77,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 之后访问[Custom Search JSON API 指南](https://developers.google.com/custom-search/v1/overview)，找到**API key**部分，点击**Get a Key**。
 
 <HorizontalCenterImg
-    src="/plugins/web-search/get-api-key.webp"
+    src="/plugins/web-search/google/get-api-key.webp"
     alt="API key"
     width="500px"
   />
@@ -85,7 +85,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 在弹出的页面中，选择先前创建的项目，点击**NEXT**。
 
 <HorizontalCenterImg
-    src="/plugins/web-search/get-api-key-enable.webp"
+    src="/plugins/web-search/google/get-api-key-enable.webp"
     alt="选择项目"
     width="500px"
   />
@@ -93,7 +93,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 点击**CONFIRM AND CONTINUE**以确认在您的项目中启用 Custom Search API。
 
 <HorizontalCenterImg
-    src="/plugins/web-search/get-api-key-confirm.webp"
+    src="/plugins/web-search/google/get-api-key-confirm.webp"
     alt="确认启用"
     width="500px"
   />
@@ -103,6 +103,65 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 ::: warning
 请务必将 API 密钥妥善保存，因为它只会显示一次（如果可以的话，搜索引擎 ID 也可以额外保存一份以便日后使用）。如果您不小心关闭了对话框，可以再次点击**Get a Key**按照流程重新生成一个新的密钥。
 :::
+
+::: danger
+请注意，API 密钥是敏感信息，请不要将其泄露给任何人或在公共场合分享。
+:::
+
+## 使用 Brave
+
+本教程将一步步指导您如何在 Everywhere 中使用[Brave](https://brave.com/search/api/)作为网络搜索服务。
+
+::: warning
+Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地区不受支持，建议使用其他搜索服务。
+:::
+
+### 准备
+
+- 注册并登录 Brave 账户
+- 可能需要一个有效的付款方式，比如**Google Pay**或**借记卡/信用卡**
+
+### 步骤
+
+- 访问[Brave Search API Dashboard](https://api-dashboard.search.brave.com/app/dashboard)
+
+<HorizontalCenterImg
+    src="/plugins/web-search/brave/homepage.webp"
+    alt="主页"
+    width="600px"
+  />
+
+- 在页面左方侧边栏点击**Subscriptions**，选择您需要的订阅计划，点击**Subscribe**。*（此处以选择免费计划）*
+
+<HorizontalCenterImg
+    src="/plugins/web-search/brave/subscriptions.webp"
+    alt="订阅计划"
+    width="600px"
+  />
+
+- 阅读并同意条款，进入付款界面选择您的付款方式，完成订阅。返回到**Subscriptions**页面，确保您的计划已成功订阅。
+
+<HorizontalCenterImg
+    src="/plugins/web-search/brave/subscribed.webp"
+    alt="订阅成功"
+    width="300px"
+  />
+
+- 点击左方侧边栏的**API Keys**，然后点击右上角的**Add API key**。在弹出的对话框中，**Name**位置填写一个方便记忆的名称，**Subscription**位置选择您刚刚订阅的计划，点击**Add**。
+
+<HorizontalCenterImg
+    src="/plugins/web-search/brave/create-api-key.webp"
+    alt="添加 API key"
+    width="400px"
+  />
+
+- 成功创建后，您将会看到刚刚创建的 API key，点击**Copy**按钮复制该 key 至 Everywhere 的**API 密钥**配置项中，即可使用 Brave 的搜索服务。
+
+<HorizontalCenterImg
+    src="/plugins/web-search/brave/api-key.webp"
+    alt="复制 API key"
+    width="600px"
+  />
 
 ::: danger
 请注意，API 密钥是敏感信息，请不要将其泄露给任何人或在公共场合分享。
