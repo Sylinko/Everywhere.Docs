@@ -44,7 +44,6 @@ export const en = defineConfig({
       },
       {
         text: 'Plugins',
-        collapsed: true,
         items: [
           { text: 'Web Search', link: '/en-US/plugins/web-search' },
         ]

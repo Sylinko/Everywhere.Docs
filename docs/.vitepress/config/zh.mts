@@ -91,7 +91,6 @@ export const zh = defineConfig({
       },
       {
         text: '聊天插件',
-        collapsed: true,
         items: [
           { text: '网络搜索', link: '/zh-CN/plugins/web-search' },
         ]
