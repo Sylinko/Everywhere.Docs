@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export const zh = defineConfig({
-  description: "随时随地，智能相伴 - Everwhere",
+  description: "随时随地，智能相伴 - Everywhere",
   themeConfig: {
     nav: [
       { text: '主页', link: '/zh-CN/' },
@@ -81,11 +81,11 @@ export const zh = defineConfig({
           { text: 'OpenAI', link: '/zh-CN/model-provider/openai' },
           { text: 'Anthropic (Claude)', link: '/zh-CN/model-provider/anthropic' },
           { text: 'Google (Gemini)', link: '/zh-CN/model-provider/google' },
+          { text: 'xAI (Grok)', link: '/zh-CN/model-provider/xai' },
           { text: 'DeepSeek', link: '/zh-CN/model-provider/deepseek' },
           { text: 'Moonshot (Kimi)', link: '/zh-CN/model-provider/moonshot' },
           { text: 'OpenRouter', link: '/zh-CN/model-provider/openrouter' },
           { text: 'SiliconCloud (硅基流动)', link: '/zh-CN/model-provider/siliconcloud' },
-          { text: 'xAI (Grok)', link: '/zh-CN/model-provider/xai' },
           { text: 'Ollama', link: '/zh-CN/model-provider/ollama' },
         ]
       },

@@ -23,6 +23,12 @@ const models = computed(() => [
     title: 'Google (Gemini)'
   },
   {
+    iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/1.69.1/files/icons/xai.svg',
+    link: 'https://x.ai/',
+    title: 'xAI (Grok)',
+    inversedIconColor: true
+  },
+  {
     iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/deepseek-color.svg',
     link: 'https://www.deepseek.com/',
     title: 'DeepSeek'
@@ -37,12 +43,6 @@ const models = computed(() => [
     iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/siliconcloud-color.svg',
     link: 'https://www.siliconflow.cn/',
     title: 'SiliconCloud'
-  },
-  {
-    iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/1.69.1/files/icons/xai.svg',
-    link: 'https://x.ai/',
-    title: 'xAI (Grok)',
-    inversedIconColor: true
   },
   {
     iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/ollama.svg',

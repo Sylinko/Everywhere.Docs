@@ -83,6 +83,10 @@
           <span>Google (Gemini)</span>
         </div>
         <div class="icon-text">
+          <img alt="xAI (Grok) logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/xai.svg">
+          <span>xAI (Grok)</span>
+        </div>
+        <div class="icon-text">
           <img alt="DeepSeek logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/deepseek-color.svg">
           <span>DeepSeek</span>
         </div>

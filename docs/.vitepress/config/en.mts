@@ -34,11 +34,11 @@ export const en = defineConfig({
           { text: 'OpenAI', link: '/en-US/model-provider/openai' },
           { text: 'Anthropic (Claude)', link: '/en-US/model-provider/anthropic' },
           { text: 'Google (Gemini)', link: '/en-US/model-provider/google' },
+          { text: 'xAI (Grok)', link: '/en-US/model-provider/xai' },
           { text: 'DeepSeek', link: '/en-US/model-provider/deepseek' },
           { text: 'Moonshot (Kimi)', link: '/en-US/model-provider/moonshot' },
           { text: 'OpenRouter', link: '/en-US/model-provider/openrouter' },
           { text: 'SiliconCloud (SiliconFlow)', link: '/en-US/model-provider/siliconcloud' },
-          { text: 'xAI (Grok)', link: '/en-US/model-provider/xai' },
           { text: 'Ollama', link: '/en-US/model-provider/ollama' },
         ]
       },
