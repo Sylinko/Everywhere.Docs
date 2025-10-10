@@ -70,6 +70,7 @@ export const zh = defineConfig({
           { text: '介绍', link: '/zh-CN/docs/getting-started/introduction' },
           { text: '安装', link: '/zh-CN/docs/getting-started/installation' },
           { text: '使用', link: '/zh-CN/docs/getting-started/use' },
+          { text: '常见问题', link: '/zh-CN/docs/getting-started/faq' },
         ]
       },
       {
