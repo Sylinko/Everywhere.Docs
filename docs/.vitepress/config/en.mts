@@ -5,7 +5,8 @@ export const en = defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/en-US/' },
-      { text: 'Docs', link: '/en-US/docs/' }
+      { text: 'Docs', link: '/en-US/docs/' },
+      { text: 'Download', link: '/en-US/download/' },
     ],
 
     notFound: {

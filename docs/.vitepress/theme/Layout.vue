@@ -2,12 +2,6 @@
 import DefaultTheme from 'vitepress/theme'
 import { useData, inBrowser } from 'vitepress'
 import { watchEffect, ref } from 'vue'
-import { 
-  NolebaseEnhancedReadabilitiesMenu, 
-  NolebaseEnhancedReadabilitiesScreenMenu, 
-} from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
-
-import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 
 const { lang } = useData();
 const isRedirecting = ref(false);

@@ -1,0 +1,209 @@
+.download-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background-color: var(--vp-c-bg);
+}
+
+.download-container {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 128px;
+  color: var(--vp-c-text-1);
+  animation: fadeInDown 0.8s ease;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  margin-top: 32px;
+  color: var(--vp-c-text-2);
+  animation: fadeInDown 0.8s ease 0.2s backwards;
+}
+
+.changelog-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 50px;
+  color: var(--vp-c-text-2);
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 24px;
+  margin-bottom: 42px;
+  animation: fadeInDown 0.8s ease 0.3s backwards;
+  user-select: none;
+}
+
+.changelog-btn:hover {
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-bg-soft-up);
+  border-color: var(--vp-c-brand-1);
+}
+
+.download-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.download-card {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, opacity 0.3s ease;
+  animation: fadeInUp 0.8s ease backwards;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.download-card:nth-child(1) { animation-delay: 0.3s; }
+.download-card:nth-child(2) { animation-delay: 0.4s; }
+.download-card:nth-child(3) { animation-delay: 0.5s; }
+
+.download-card.available {
+  cursor: pointer;
+}
+
+.download-card.available:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: var(--vp-c-brand-1);
+}
+
+.download-card.coming-soon {
+  opacity: 0.6;
+  position: relative;
+}
+
+.download-card.coming-soon:nth-child(1) { 
+  animation: fadeInUpComingSoon 0.8s ease 0.3s backwards;
+}
+.download-card.coming-soon:nth-child(2) { 
+  animation: fadeInUpComingSoon 0.8s ease 0.4s backwards;
+}
+.download-card.coming-soon:nth-child(3) { 
+  animation: fadeInUpComingSoon 0.8s ease 0.5s backwards;
+}
+
+.card-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--vp-c-text-1);
+  color: var(--vp-c-bg);
+  transition: transform 0.3s ease;
+}
+
+.download-card.available:hover .card-icon {
+  transform: scale(1.1);
+}
+
+.download-card h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  color: var(--vp-c-text-1);
+}
+
+.version {
+  color: var(--vp-c-text-2);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.75rem;
+  background: var(--vp-c-text-1);
+  color: var(--vp-c-bg);
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.download-card.available:hover .download-btn {
+  background: var(--vp-c-brand-1);
+  color: var(--vp-c-bg);
+  transform: scale(1.05);
+}
+
+.coming-soon-badge {
+  padding: 0.875rem 1.75rem;
+  background: var(--vp-c-mute);
+  color: var(--vp-c-text-2);
+  border-radius: 50px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUpComingSoon {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 0.6;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .download-cards {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

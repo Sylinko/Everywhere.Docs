@@ -14,6 +14,9 @@ hero:
       text: 🚀 快速开始
       link: /zh-CN/docs/getting-started/introduction
     - theme: alt
+      text: 📥 下载
+      link: /zh-CN/download/
+    - theme: alt
       text: 📄 文档
       link: /zh-CN/docs/
 

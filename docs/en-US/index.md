@@ -14,6 +14,9 @@ hero:
       text: 🚀Get Started
       link: /en-US/docs/getting-started/introduction
     - theme: alt
+      text: 📥 Download
+      link: /en-US/download/
+    - theme: alt
       text: 📄Docs
       link: /en-US/docs/
 

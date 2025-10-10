@@ -5,7 +5,8 @@ export const zh = defineConfig({
   themeConfig: {
     nav: [
       { text: '主页', link: '/zh-CN/' },
-      { text: '文档', link: '/zh-CN/docs/' }
+      { text: '文档', link: '/zh-CN/docs/' },
+      { text: '下载', link: '/zh-CN/download/' },
     ],
 
     notFound: {
