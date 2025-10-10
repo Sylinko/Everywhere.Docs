@@ -81,7 +81,7 @@ export const zh = defineConfig({
           { text: 'OpenAI', link: '/zh-CN/model-provider/openai' },
           { text: 'Anthropic (Claude)', link: '/zh-CN/model-provider/anthropic' },
           { text: 'Google (Gemini)', link: '/zh-CN/model-provider/google' },
-          { text: 'xAI (Grok)', link: '/zh-CN/model-provider/xai' },
+          // { text: 'xAI (Grok)', link: '/zh-CN/model-provider/xai' },
           { text: 'DeepSeek', link: '/zh-CN/model-provider/deepseek' },
           { text: 'Moonshot (Kimi)', link: '/zh-CN/model-provider/moonshot' },
           { text: 'OpenRouter', link: '/zh-CN/model-provider/openrouter' },

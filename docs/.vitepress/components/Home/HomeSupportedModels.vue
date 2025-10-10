@@ -22,12 +22,12 @@ const models = computed(() => [
     link: 'https://gemini.google.com/',
     title: 'Google (Gemini)'
   },
-  {
-    iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/1.69.1/files/icons/xai.svg',
-    link: 'https://x.ai/',
-    title: 'xAI (Grok)',
-    inversedIconColor: true
-  },
+  // {
+  //   iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/1.69.1/files/icons/xai.svg',
+  //   link: 'https://x.ai/',
+  //   title: 'xAI (Grok)',
+  //   inversedIconColor: true
+  // },
   {
     iconUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/deepseek-color.svg',
     link: 'https://www.deepseek.com/',
