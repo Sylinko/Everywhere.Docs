@@ -29,7 +29,6 @@ export const en = defineConfig({
       },
       {
         text: 'Model Providers',
-        collapsed: true,
         items: [
           { text: 'OpenAI', link: '/en-US/model-provider/openai' },
           { text: 'Anthropic (Claude)', link: '/en-US/model-provider/anthropic' },
