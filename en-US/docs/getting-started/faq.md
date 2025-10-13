@@ -14,4 +14,4 @@ You may notice that when using services on the official websites of models like 
 
 However, when we call these LLMs via API, we are using their core text generation function, which does not include web search capabilities.
 
-`Everywhere` interacts with these models via API. Therefore, to enable web search functionality, it needs to rely on an external search engine service (e.g., Google, Bing, Brave, Bocha, etc.). You need to configure the corresponding search engine service in `Everywhere` to allow the AI to have web search capabilities when answering questions. For details, see [Chat Plugins - Web Search](/en-US/plugins/web-search).
+`Everywhere` interacts with these models via API. Therefore, to enable web search functionality, it needs to rely on an external search engine service (e.g., Google, Brave, Tavily, Bocha, etc.). You need to configure the corresponding search engine service in `Everywhere` to allow the AI to have web search capabilities when answering questions. For details, see [Chat Plugins - Web Search](/en-US/plugins/web-search).

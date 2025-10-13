@@ -4,7 +4,7 @@
 
 # 网络搜索
 
-Everywhere 支持通过网络搜索获取最新的信息。您可以选择使用 Google, Brave, Bing 或 Bocha 作为搜索引擎。
+Everywhere 支持通过网络搜索获取最新的信息。您可以选择使用 Google, Brave, Tavily 或 Bocha 作为搜索引擎。
 
 ## 使用 Google
 

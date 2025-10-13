@@ -4,7 +4,7 @@
 
 # Web Search
 
-Everywhere supports fetching the latest information through web search. You can choose to use Google, Brave, Bing, or Bocha as your search engine.
+Everywhere supports fetching the latest information through web search. You can choose to use Google, Brave, Tavily, or Bocha as your search engine.
 
 ## Via Google
 
