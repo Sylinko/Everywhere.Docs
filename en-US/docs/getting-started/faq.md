@@ -1,5 +1,13 @@
 # FAQ
 
+## Why isn't the (unofficially supported) model provider I'm using working properly?
+
+`Everywhere` officially supports a range of common model providers (e.g., OpenAI, Gemini, DeepSeek, etc.). For these officially supported providers, we strive to ensure their compatibility and stability.
+
+However, there are a large number of third-party or personally built model services on the market that are compatible with the OpenAI API format. Due to limited resources, we are unable to test and adapt to all unofficially supported model providers. If you encounter problems when using an unofficially supported model provider, we recommend that you first contact the provider of that service for technical support, or switch to an officially supported model provider.
+
+We welcome community members to contribute to supporting new model providers, but please understand that the development team cannot provide troubleshooting and support for unofficially supported integrations.
+
 ## AI doesn't give any answer
 
 After asking a question, if there is no answer (but prompts like **Analyzing context** are displayed), it may be due to the following reasons:
