@@ -1,4 +1,18 @@
+<script lang="ts" setup>
+  import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
+</script>
+
 # FAQ
+
+## How to configure models when using a gateway provider (like OpenRouter)?
+
+For example, if you are using the `openai/gpt-oss-20b:free` model within OpenRouter:
+
+<HorizontalCenterImg
+    src="/faq/openrouter-model-config.webp"
+    alt="Gateway service configuration"
+    width="550px"
+  />
 
 ## Why isn't the (unofficially supported) model provider I'm using working properly?
 

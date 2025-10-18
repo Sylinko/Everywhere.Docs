@@ -1,4 +1,22 @@
+<script lang="ts" setup>
+  import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
+</script>
+
 # 常见问题
+
+## 使用了中转提供商（如硅基流动）该怎么配置模型？
+
+::: warning 
+硅基流动内`DeepSeek`模型的模型提供商是硅基流动，不是`DeepSeek`。
+:::
+
+比如您在硅基流动内使用`Pro/deepseek-ai/DeepSeek-V3`模型：
+
+<HorizontalCenterImg
+    src="/faq/siliconcloud-model-config.webp"
+    alt="中转服务配置示例"
+    width="550px"
+  />
 
 ## 为什么我使用的（非官方支持的）模型提供商无法正常工作？
 
