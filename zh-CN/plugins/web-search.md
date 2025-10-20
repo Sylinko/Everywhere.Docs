@@ -4,7 +4,7 @@
 
 # 网络搜索
 
-Everywhere 支持通过网络搜索获取最新的信息。您可以选择使用 Google, Brave, Tavily 或 Bocha 作为搜索引擎。
+Everywhere 支持通过网络搜索获取最新的信息。您可以选择使用 Google, Brave, Bocha, Tavily, Jina 或 SearXNG 作为搜索引擎。
 
 ## 使用 Google
 
@@ -161,6 +161,47 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
     src="/plugins/web-search/brave/api-key.webp"
     alt="复制 API key"
     width="600px"
+  />
+
+::: danger
+请注意，API 密钥是敏感信息，请不要将其泄露给任何人或在公共场合分享。
+:::
+
+## 使用 博查 (Bocha)
+
+本教程将一步步指导您如何在 Everywhere 中使用[博查](https://open.bochaai.com/)作为网络搜索服务。
+
+::: warning
+博查 (Bocha) 服务登录仅支持微信账号。如您所在地区无法使用微信登录，建议使用其他搜索服务。
+:::
+
+### 准备
+
+- [注册并登录博查账户](https://open.bochaai.com/login)
+
+### 步骤
+
+- 访问[博查 AI 开放平台](https://api-dashboard.search.bochaai.com/app/dashboard)，点击左侧边栏的**API KEY管理**。
+
+<HorizontalCenterImg
+    src="/plugins/web-search/bocha/homepage.webp"
+    alt="主页"
+  />
+
+- 点击**创建 API KEY**，在弹出的对话框中点击**确认创建**。
+
+<HorizontalCenterImg
+    src="/plugins/web-search/bocha/create-api-key.webp"
+    alt="创建 API key"
+    width="400px"
+  />
+
+- 成功创建后，您将会看到刚刚创建的 API key，点击右侧复制按钮将该 key 复制至 Everywhere 的**API 密钥**配置项中，即可使用博查的搜索服务。
+
+<HorizontalCenterImg
+    src="/plugins/web-search/bocha/api-key.webp"
+    alt="复制 API key"
+    width="400px"
   />
 
 ::: danger

@@ -4,7 +4,7 @@
 
 # Web Search
 
-Everywhere supports fetching the latest information through web search. You can choose to use Google, Brave, Tavily, or Bocha as your search engine.
+Everywhere supports fetching the latest information through web search. You can choose to use Google, Brave, Bocha, Tavily, Jina, or SearXNG as your search engine.
 
 ## Via Google
 
@@ -165,4 +165,45 @@ The Brave search service currently only supports access in some countries and re
 
 ::: danger
 Please note that the API key is sensitive information. Do not disclose it to anyone or share it in public.
+:::
+
+## Via Bocha
+
+This tutorial will guide you step by step on how to use [Bocha](https://open.bochaai.com/) as a web search service in Everywhere.
+
+::: warning
+Bocha service login only supports WeChat accounts. If WeChat login is not available in your region, it is recommended to use other search services.
+:::
+
+### Preparation
+
+- [Register and log in to a Bocha account](https://open.bochaai.com/login)
+
+### Steps
+
+- Visit the [Bocha AI Open Platform](https://api-dashboard.search.bochaai.com/app/dashboard) and click **API KEY管理** in the left sidebar.
+
+<HorizontalCenterImg
+    src="/plugins/web-search/bocha/homepage.webp"
+    alt="Homepage"
+  />
+
+- Click **创建 API KEY**, and in the pop-up dialog, click **确认创建**.
+
+<HorizontalCenterImg
+    src="/plugins/web-search/bocha/create-api-key.webp"
+    alt="Create API key"
+    width="400px"
+  />
+
+- After successful creation, you will see the API key you just created. Click the copy button on the right to copy the key to the **API Key** configuration item in Everywhere to use Bocha's search service.
+
+<HorizontalCenterImg
+    src="/plugins/web-search/bocha/api-key.webp"
+    alt="Copy API key"
+    width="400px"
+  />
+
+::: danger
+Please note that the API key is sensitive information, please do not disclose it to anyone or share it in public.
 :::
