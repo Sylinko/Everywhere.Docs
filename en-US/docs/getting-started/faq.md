@@ -2,7 +2,7 @@
   import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
 </script>
 
-# FAQ
+# Frequently Asked Questions
 
 ## How to configure models when using a gateway provider (like OpenRouter)?
 
@@ -14,26 +14,46 @@ For example, if you are using the `openai/gpt-oss-20b:free` model within OpenRou
     width="550px"
   />
 
-## Why isn't the (unofficially supported) model provider I'm using working properly?
+## Why isn't my (unofficially supported) model provider working?
 
-`Everywhere` officially supports a range of common model providers (e.g., OpenAI, Gemini, DeepSeek, etc.). For these officially supported providers, we strive to ensure their compatibility and stability.
+`Everywhere` supports a range of major model providers (e.g., OpenAI, Gemini, DeepSeek). For these officially supported providers, we strive to ensure their compatibility and stability.
 
-However, there are a large number of third-party or personally built model services on the market that are compatible with the OpenAI API format. Due to limited resources, we are unable to test and adapt to all unofficially supported model providers. If you encounter problems when using an unofficially supported model provider, we recommend that you first contact the provider of that service for technical support, or switch to an officially supported model provider.
+However, there are many third-party or self-hosted model services that are compatible with the OpenAI API format. Due to limited resources, we cannot test and adapt to all unofficially supported model providers. If you encounter issues while using an unofficially supported provider, we recommend that you first contact the service provider for technical support or switch to an officially supported one.
 
-We welcome community members to contribute to supporting new model providers, but please understand that the development team cannot provide troubleshooting and support for unofficially supported integrations.
+We welcome community contributions to support new model providers, but please understand that the development team cannot provide troubleshooting and support for unofficially supported integrations.
 
-## AI doesn't give any answer
+## Why can't I bring up the floating window?
 
-After asking a question, if there is no answer (but prompts like **Analyzing context** are displayed), it may be due to the following reasons:
-- If your model uses an OpenAI-compatible API Url, please check if the URL suffix has `v1`.
-> Correct URL example: https://api.openai.com/v1
-> 
-> Incorrect URL example: https://api.openai.com
+If you press the hotkey but don't see the `Everywhere` floating window, there are usually two possible reasons:
+1. **Hotkey Conflict**: The hotkey you set may be the same as another software on your system (e.g., screenshot tool, input method).
+  * **Solution**: Try changing the hotkey in `Everywhere`'s `Chat Settings` and try again.
+2. **Administrator Permissions**: When you are active in a window running with administrator privileges (e.g., Task Manager, some installers), `Everywhere` also needs to run with administrator privileges to display on top of that window. This is due to Windows' User Account Control (UAC) mechanism, which uses "Integrity Levels" to isolate programs with different permissions, preventing lower-privilege applications from controlling higher-privilege ones.
+  * **Solution**: In `Everywhere`'s `General Settings`, click the `Restart as Administrator` button and try again.
+
+## The AI gives no response
+
+If there is no response after asking a question (but status messages like **Analyze Context** are displayed), it might be due to an incorrect API Url configuration.
+
+For example, a common mistake is entering `https://api.openai.com` instead of `https://api.openai.com/v1`.
+::: tip How to find the correct API Url
+1. If your model service provider is on `Everywhere`'s official support list, please keep the default Url.
+2. If you are using a third-party or self-hosted service, please refer to its official documentation to find the correct API Url (also known as "Endpoint").
+
+   For an OpenAI-compatible API, you need to find an address like `https://api.example.com/v1/chat/completions`, then remove the `/chat/completions` part at the end to get `https://api.example.com/v1`, and enter this into the `API Url` field in `Everywhere`.
+
+<HorizontalCenterImg
+    src="/faq/ai-no-answer-example.webp"
+    alt="OpenAI API Url Example"
+    width="400px"
+  />
+
+:::
 
 ## Why can't I use web search?
 
-You may notice that when using services on the official websites of models like ChatGPT, Gemini, or DeepSeek, they have web search capabilities. This is because these providers' websites have integrated search functionality themselves, which then combines the search results with the LLM to provide you with answers that incorporate the latest information.
+You may have noticed that when using services like ChatGPT, Gemini, or DeepSeek on their official websites, they have web search capabilities. This is because the providers' websites have integrated search functionality, which then combines the search results with the large language model to provide you with answers that include the latest information.
 
-However, when we call these LLMs via API, we are using their core text generation function, which does not include web search capabilities.
+However, when we call these large language models via API, we are using their core text generation function, which does not include web search.
 
-`Everywhere` interacts with these models via API. Therefore, to enable web search functionality, it needs to rely on an external search engine service (e.g., Google, Brave, Tavily, Bocha, etc.). You need to configure the corresponding search engine service in `Everywhere` to allow the AI to have web search capabilities when answering questions. For details, see [Chat Plugins - Web Search](/en-US/plugins/web-search).
+`Everywhere` interacts with these models via API. Therefore, to enable web search, you need an external search engine service (e.g., Google, Brave, Tavily, Bocha). You need to configure the corresponding search engine service in `Everywhere` to allow the AI to have web search capabilities when answering questions. For details, see [Chat Plugins - Web Search](/plugins/web-search).
+
