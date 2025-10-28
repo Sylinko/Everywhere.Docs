@@ -18,7 +18,7 @@ onMounted(() => {
 const sponsors = computed(() => [
   {
     title: '302.AI',
-    link: 'https://302.ai',
+    link: 'https://share.302.ai/5rzmPr',
     scale: 1.2,
     autoGray: false,
     iconUrlLight: '/sponsors/302-ai-light.svg',
