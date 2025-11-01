@@ -61,3 +61,6 @@
 
 `Everywhere` 通过 API 与这些模型进行交互。因此，要启用网络搜索功能，需要借助一个外部的搜索引擎服务（例如 Google, Brave, Tavily, Bocha 等）。您需要在 `Everywhere` 中配置相应的搜索引擎服务，才能让 AI 在回答问题时具备联网搜索的能力。详见[聊天插件 - 网络搜索](/zh-CN/plugins/web-search)
 
+## 模型服务商已知问题
+
+请参阅[模型服务商 - 已知问题](/zh-CN/model-provider/known-issues)页面，了解当前已知的与模型服务商集成相关的问题和限制。

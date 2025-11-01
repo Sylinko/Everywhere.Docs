@@ -86,6 +86,7 @@ export const zh = defineConfig({
           { text: 'OpenRouter', link: '/zh-CN/model-provider/openrouter' },
           { text: 'SiliconCloud (硅基流动)', link: '/zh-CN/model-provider/siliconcloud' },
           { text: 'Ollama', link: '/zh-CN/model-provider/ollama' },
+          { text: '已知问题', link: '/zh-CN/model-provider/known-issues' },
         ]
       },
       {

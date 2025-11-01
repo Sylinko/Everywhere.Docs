@@ -57,3 +57,6 @@ However, when we call these large language models via API, we are using their co
 
 `Everywhere` interacts with these models via API. Therefore, to enable web search, you need an external search engine service (e.g., Google, Brave, Tavily, Bocha). You need to configure the corresponding search engine service in `Everywhere` to allow the AI to have web search capabilities when answering questions. For details, see [Chat Plugins - Web Search](/en-US/plugins/web-search).
 
+## Known Issues of Model Providers
+
+Please refer to the [Model Providers - Known Issues](/en-US/model-provider/known-issues) page for current known issues and limitations related to model provider integrations.
