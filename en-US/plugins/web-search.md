@@ -207,3 +207,39 @@ Bocha service login only supports WeChat accounts. If WeChat login is not availa
 ::: danger
 Please note that the API key is sensitive information, please do not disclose it to anyone or share it in public.
 :::
+
+## Via Tavily
+
+This tutorial will guide you step by step on how to use [Tavily](https://tavily.com/) as a web search service in Everywhere.
+
+### Preparation
+
+- Register and log in to Tavily in the upper right corner of the official website.
+
+### Steps
+
+- Visit the [Homepage](https://app.tavily.com/home) and find the **API Keys** section on the **Overview** page.
+
+<HorizontalCenterImg
+    src="/plugins/web-search/tavily/homepage.webp"
+    alt="Homepage"
+  />
+
+- Click the plus button next to it to open the creation dialog. Enter a memorable name in the **Key Name** field and click **Create**.
+
+<HorizontalCenterImg
+    src="/plugins/web-search/tavily/create-api-key.webp"
+    alt="Create API key"
+    width="350px"
+  />
+
+- After successful creation, you will see the API key you just created. Click the copy button on the right to copy the key to the **API Key** configuration item in Everywhere to use Tavily's search service.
+
+<HorizontalCenterImg
+    src="/plugins/web-search/tavily/api-key.webp"
+    alt="API key"
+  />
+
+::: danger
+Please note that the API key is sensitive information. Do not disclose it to anyone or share it in public.
+:::

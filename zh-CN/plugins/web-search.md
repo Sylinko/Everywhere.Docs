@@ -207,3 +207,39 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 ::: danger
 请注意，API 密钥是敏感信息，请不要将其泄露给任何人或在公共场合分享。
 :::
+
+## 使用 Tavily
+
+本教程将一步步指导您如何在 Everywhere 中使用[Tavily](https://tavily.com/)作为网络搜索服务。
+
+### 准备
+
+- 在官网右上角注册并登录 Tavily
+
+### 步骤
+
+- 访问[账户主页](https://app.tavily.com/home)，找到**Overview**页面下的**API Keys**部分。
+
+<HorizontalCenterImg
+    src="/plugins/web-search/tavily/homepage.webp"
+    alt="主页"
+  />
+
+- 点击旁边的加号按钮，弹出创建对话框。在**Key Name**位置填写一个方便记忆的名称，点击**Create**。
+
+<HorizontalCenterImg
+    src="/plugins/web-search/tavily/create-api-key.webp"
+    alt="创建 API key"
+    width="350px"
+  />
+
+- 成功创建后，您将会看到刚刚创建的 API key，点击右侧复制按钮将该 key 复制至 Everywhere 的**API 密钥**配置项中，即可使用 Tavily 的搜索服务。
+
+<HorizontalCenterImg
+    src="/plugins/web-search/tavily/api-key.webp"
+    alt="API key"
+  />
+
+::: danger
+请注意，API 密钥是敏感信息，请不要将其泄露给任何人或在公共场合分享。
+:::
