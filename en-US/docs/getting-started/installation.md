@@ -10,7 +10,7 @@ Currently, Everywhere only supports the Windows platform. (Minimum required vers
 
 ## Download
 
-Everywhere can be downloaded from [Github Releases](https://www.google.com/search?q=https://github.com/DearVa/Everywhere/releases/latest).
+Everywhere can be downloaded from [Github Releases](https://github.com/DearVa/Everywhere/releases/latest).
 
 In each release, you can download either the installer (`.exe`) or the portable (`.zip`) version. The two versions have no differences other than their packaging method.
 

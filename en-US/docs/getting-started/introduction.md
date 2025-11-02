@@ -20,7 +20,7 @@
 
 - **📰 Quick Web Summaries**
 
-  You're Browse a long technical article but only need the key takeaways.
+  You're browsing a long technical article but only need the key takeaways.
 
   📌 **Summon Everywhere on the webpage**
 
