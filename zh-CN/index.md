@@ -51,7 +51,7 @@ div.VPHomeHero span.text {
 <div class="mt-12 mb-24 space-y-20">
   <HomeSupportedModels/>
   <HomeSponsors/>
-  <!-- <HomeShowcases lang="zh-CN"/> -->
+  <HomeShowcases lang="zh-CN"/>
   <HomeDevelopers/>
 </div>
 
