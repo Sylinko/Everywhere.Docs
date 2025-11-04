@@ -52,6 +52,7 @@ div.VPHomeHero span.text {
   <HomeSupportedModels/>
   <HomeSponsors/>
   <HomeShowcases/>
+</div>
 
 <script lang="ts" setup>
   import HomeSupportedModels from "/.vitepress/components/Home/HomeSupportedModels.vue";
