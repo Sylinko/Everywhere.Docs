@@ -7,6 +7,7 @@ export const en = defineConfig({
       { text: 'Home', link: '/en-US/' },
       { text: 'Docs', link: '/en-US/docs/' },
       { text: 'Download', link: '/en-US/download/' },
+      { text: 'About', link: '/en-US/about/' },
     ],
 
     notFound: {

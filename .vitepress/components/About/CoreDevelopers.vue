@@ -31,39 +31,39 @@ const members = computed(() => [
       },  
     ],
   },
-  // {
-  //   avatar: 'https://github.com/feast107.png',
-  //   name: 'Feast',
-  //   title: t('Full Stack Developer'),
-  //   links: [
-  //     { icon: 'github', link: 'https://github.com/feast107' },
-  //     {
-  //       icon: { svg: iconMap.bilibili },
-  //       link: 'https://space.bilibili.com/12637648',
-  //     },
-  //   ],
-  // },
+  {
+    avatar: 'https://github.com/feast107.png',
+    name: 'Feast',
+    title: t('Full Stack Developer'),
+    links: [
+      { icon: 'github', link: 'https://github.com/feast107' },
+      {
+        icon: { svg: iconMap.bilibili },
+        link: 'https://space.bilibili.com/12637648',
+      },
+    ],
+  },
 ])
 </script>
 
 <style scoped>
 h1 {
-  margin-bottom: 12px;
+  font-size: 28px;
+  font-weight: 600;
 }
-p {
+/* p {
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 24px;
   color: var(--vp-c-text-2);
-}
+} */
 </style>
 
 <template>
-  <div class="flex items-center justify-between w-full">
-    <div class="text-left">
+  <div class="flex flex-col gap-12 max-w-5xl mx-auto">
+    <div class="text-center">
       <h1> {{ t('Core Members') }} </h1>
-      <p> {{ t('The development is guided by 2 drop-out students.') }} </p>
-      <p> {{ t('Our campus is the world; our vision is to be Everywhere.') }} </p>
     </div>
-    <VPTeamMembers class="w-150 ml-auto" size="small" :members="members" />
+    <VPTeamMembers size="small" :members="members" />
   </div>
-</template> 
+</template>

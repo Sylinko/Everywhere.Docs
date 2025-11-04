@@ -7,6 +7,7 @@ export const zh = defineConfig({
       { text: '主页', link: '/zh-CN/' },
       { text: '文档', link: '/zh-CN/docs/' },
       { text: '下载', link: '/zh-CN/download/' },
+      { text: '关于', link: '/zh-CN/about/' },
     ],
 
     notFound: {

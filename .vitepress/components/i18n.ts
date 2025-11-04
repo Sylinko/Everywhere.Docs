@@ -8,8 +8,6 @@ export const pairs = {
   'Full Stack Developer': '全栈开发',
   'Supported Models': '主流大模型支持',
   'Sponsors': '赞助方',
-  'The development is guided by 2 drop-out students.': '项目主要由两名辍学生开发。',
-  'Our campus is the world; our vision is to be Everywhere.': '世界就是我们的校园，我们的愿景无处不在。',
   'In the wild': '真实场景',
   'AI Without Boundaries': 'AI 无界应用',
   'Liberating AI from browser and standalone apps, making it a ubiquitous, native capability of your operating system.': '将 AI 从浏览器和独立应用中解放出来，使其成为您操作系统中无处不在的原生能力。',
@@ -29,6 +27,11 @@ export const pairs = {
   'Changelog': '更新日志',
   'Download': '立即下载',
   'Coming Soon': '敬请期待',
+  // About
+  'About Everywhere': '关于 Everywhere',
+  'Join Our Community': '社群',
+  // 'The development is guided by 2 drop-out students.': '项目主要由两名辍学生开发。',
+  // 'Our campus is the world; our vision is to be Everywhere.': '世界就是我们的校园，我们的愿景无处不在。',
 }
 
 import { useData } from 'vitepress'
