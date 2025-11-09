@@ -243,3 +243,33 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 ::: danger
 请注意，API 密钥是敏感信息，请不要将其泄露给任何人或在公共场合分享。
 :::
+
+## 使用 Jina
+
+本教程将一步步指导您如何在 Everywhere 中使用[Jina](https://jina.ai/)作为网络搜索服务。
+
+### 准备
+
+- 在官网右上角注册并登录 Jina
+
+### 步骤
+
+- 访问[Dashboard](https://jina.ai/api-dashboard)，找到侧边栏的**Manage API Key**部分。
+
+<HorizontalCenterImg
+    src="/plugins/web-search/jina/manage-api-key.webp"
+    alt="管理 API Key"
+    width="550px"
+  />
+
+- Jina 会保证您的账户至少有一个 API Key，点击该 key 旁边的复制按钮将该 key 复制至 Everywhere 的**API 密钥**配置项中，即可使用 Jina 的搜索服务。
+
+<HorizontalCenterImg
+    src="/plugins/web-search/jina/get-api-key.webp"
+    alt="获取 API Key"
+    width="500px"
+  />
+
+::: danger
+请注意，API 密钥是敏感信息，请不要将其泄露给任何人或在公共场合分享。
+:::

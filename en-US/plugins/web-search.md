@@ -243,3 +243,33 @@ This tutorial will guide you step by step on how to use [Tavily](https://tavily.
 ::: danger
 Please note that the API key is sensitive information. Do not disclose it to anyone or share it in public.
 :::
+
+## Via Jina
+
+This tutorial will guide you step by step on how to use [Jina](https://jina.ai/) as a web search service in Everywhere.
+
+### Preparation
+
+- Register and log in to Jina in the upper right corner of the official website.
+
+### Steps
+
+- Visit the [Dashboard](https://jina.ai/api-dashboard) and find the **Manage API Key** section in the sidebar.
+
+<HorizontalCenterImg
+    src="/plugins/web-search/jina/manage-api-key.webp"
+    alt="Manage API Key"
+    width="550px"
+  />
+
+- Jina ensures that your account has at least one API Key. Click the copy button next to the key to copy it to the **API Key** configuration item in Everywhere to use Jina's search service.
+
+<HorizontalCenterImg
+    src="/plugins/web-search/jina/get-api-key.webp"
+    alt="Get API Key"
+    width="500px"
+  />
+
+::: danger
+Please note that the API key is sensitive information. Do not disclose it to anyone or share it in public.
+:::
