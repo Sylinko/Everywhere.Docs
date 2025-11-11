@@ -6,6 +6,10 @@
 
 This tutorial will guide you step-by-step on how to get an API key for [Moonshot (Kimi)](https://moonshot.kimi.ai).
 
+::: warning
+- Please note that subscribing to paid plans such as Kimi Moderato, Allegretto or Vivace is billed separately from the API service. You may still need to pay separately for API usage.
+:::
+
 ## Steps
 
 - Go to the [Moonshot Open Platform](https://platform.moonshot.cn/playground) and register & log in to your account.

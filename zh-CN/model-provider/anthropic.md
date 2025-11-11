@@ -7,7 +7,8 @@
 本教程将一步步指导您如何获取[Anthropic Claude](https://www.anthropic.com/)的API密钥。
 
 ::: warning
-Anthropic Claude 目前仅支持部分国家和地区的手机号注册，若您所在地区不受支持，建议使用其他模型提供商。
+- Anthropic Claude 目前仅支持部分国家和地区的手机号注册，若您所在地区不受支持，建议使用其他模型提供商。
+- 请注意，订阅 Claude Pro 或 Max 等付费计划，与 API 服务是分开计费的。您仍然可能需要为 API 使用单独付费。
 :::
 
 ## 准备

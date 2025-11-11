@@ -6,6 +6,10 @@
 
 This tutorial will guide you step-by-step on how to get an API key for [Anthropic Claude](https://www.anthropic.com/).
 
+::: warning
+- Please note that subscribing to paid plans such as Claude Pro or Max is billed separately from the API service. You may still need to pay separately for API usage.
+:::
+
 ## Preparation
 
 - A phone number from a [supported country](https://www.anthropic.com/supported-countries).

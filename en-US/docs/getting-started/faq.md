@@ -4,7 +4,17 @@
 
 # Frequently Asked Questions
 
-## How to configure models when using a gateway provider (like OpenRouter)?
+## Payments
+
+### I subscribed to ChatGPT Plus/Team/Pro or a similar service, why am I being told my balance is insufficient?
+
+ChatGPT Plus/Team/Pro or Gemini Google One subscription services are billed separately from the API services.
+
+You need to top up your balance for the API services separately.
+
+## Model Providers
+
+### How to configure models when using a gateway provider (like OpenRouter)?
 
 For example, if you are using the `openai/gpt-oss-20b:free` model within OpenRouter:
 
@@ -14,7 +24,7 @@ For example, if you are using the `openai/gpt-oss-20b:free` model within OpenRou
     width="550px"
   />
 
-## Why isn't my (unofficially supported) model provider working?
+### Why isn't my (unofficially supported) model provider working?
 
 `Everywhere` supports a range of major model providers (e.g., OpenAI, Gemini, DeepSeek). For these officially supported providers, we strive to ensure their compatibility and stability.
 
@@ -22,15 +32,7 @@ However, there are many third-party or self-hosted model services that are compa
 
 We welcome community contributions to support new model providers, but please understand that the development team cannot provide troubleshooting and support for unofficially supported integrations.
 
-## Why can't I bring up the floating window?
-
-If you press the hotkey but don't see the `Everywhere` floating window, there are usually two possible reasons:
-1. **Hotkey Conflict**: The hotkey you set may be the same as another software on your system (e.g., screenshot tool, input method).
-  * **Solution**: Try changing the hotkey in `Everywhere`'s `Chat Settings` and try again.
-2. **Administrator Permissions**: When you are active in a window running with administrator privileges (e.g., Task Manager, some installers), `Everywhere` also needs to run with administrator privileges to display on top of that window. This is due to Windows' User Account Control (UAC) mechanism, which uses "Integrity Levels" to isolate programs with different permissions, preventing lower-privilege applications from controlling higher-privilege ones.
-  * **Solution**: In `Everywhere`'s `General Settings`, click the `Restart as Administrator` button and try again.
-
-## The AI gives no response
+### The AI gives no response
 
 If there is no response after asking a question (but status messages like **Analyze Context** are displayed), it might be due to an incorrect API Url configuration.
 
@@ -49,7 +51,7 @@ For example, a common mistake is entering `https://api.openai.com` instead of `h
 
 :::
 
-## Why can't I use web search?
+### Why can't I use web search?
 
 You may have noticed that when using services like ChatGPT, Gemini, or DeepSeek on their official websites, they have web search capabilities. This is because the providers' websites have integrated search functionality, which then combines the search results with the large language model to provide you with answers that include the latest information.
 
@@ -57,6 +59,16 @@ However, when we call these large language models via API, we are using their co
 
 `Everywhere` interacts with these models via API. Therefore, to enable web search, you need an external search engine service (e.g., Google, Brave, Tavily, Bocha). You need to configure the corresponding search engine service in `Everywhere` to allow the AI to have web search capabilities when answering questions. For details, see [Chat Plugins - Web Search](/en-US/plugins/web-search).
 
-## Known Issues of Model Providers
+### Other Known Issues
 
 Please refer to the [Model Providers - Known Issues](/en-US/model-provider/known-issues) page for current known issues and limitations related to model provider integrations.
+
+## Software Usage
+
+### Why can't I bring up the floating chat window?
+
+If you press the hotkey but don't see the `Everywhere` floating window, there are usually two possible reasons:
+1. **Hotkey Conflict**: The hotkey you set may be the same as another software on your system (e.g., screenshot tool, input method).
+  * **Solution**: Try changing the hotkey in `Everywhere`'s `Chat Settings` and try again.
+2. **Administrator Permissions**: When you are active in a window running with administrator privileges (e.g., Task Manager, some installers), `Everywhere` also needs to run with administrator privileges to display on top of that window. This is due to Windows' User Account Control (UAC) mechanism, which uses "Integrity Levels" to isolate programs with different permissions, preventing lower-privilege applications from controlling higher-privilege ones.
+  * **Solution**: In `Everywhere`'s `General Settings`, click the `Restart as Administrator` button and try again.

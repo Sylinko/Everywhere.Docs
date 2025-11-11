@@ -11,7 +11,8 @@ One of the great benefits of the Gemini API is its generous free tier. You get a
 :::
 
 ::: warning
-This tutorial starts from Google Cloud, not by creating an API key directly in AI Studio.
+- Please note that subscribing to paid plans such as Gemini Pro is billed separately from the API service. You may still need to pay separately for API usage.
+- This tutorial starts from Google Cloud, not by creating an API key directly in AI Studio.
 :::
 
 ## Preparation

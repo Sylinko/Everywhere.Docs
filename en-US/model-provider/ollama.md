@@ -2,13 +2,13 @@
   import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
 </script>
 
-::: warning
-Using Ollama with Everywhere is an advanced feature. It is recommended to configure and use it only after understanding how it works. Compatibility is not guaranteed.
-:::
-
 # Connecting to Ollama
 
 This tutorial will guide you step-by-step on how to connect to a local model from [Ollama](https://ollama.com).
+
+::: warning
+Using Ollama with Everywhere is an advanced feature. It is recommended to configure and use it only after understanding how it works. Compatibility is not guaranteed.
+:::
 
 ## Prerequisites
 

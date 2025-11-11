@@ -6,6 +6,10 @@
 
 本教程将一步步指导您如何获取[Moonshot (Kimi)](https://moonshot.kimi.ai)的API密钥。
 
+::: warning
+请注意，订阅 Kimi Moderato, Allegretto 或 Vivace 等付费计划，与 API 服务是分开计费的。您仍然可能需要为 API 使用单独付费。
+:::
+
 ## 步骤
 
 - 访问[Moonshot 开放工作台](https://platform.moonshot.cn/playground)，并注册&登录账户。

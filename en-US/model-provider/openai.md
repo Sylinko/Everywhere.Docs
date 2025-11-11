@@ -6,6 +6,10 @@
 
 This tutorial will guide you step-by-step on how to obtain an API key from [OpenAI](https://openai.com).
 
+::: warning
+- Please note that subscribing to paid plans such as ChatGPT Plus, Team or Pro is billed separately from the API service. You may still need to pay separately for API usage.
+:::
+
 ## Preparation
 
 - A valid email address for account registration
