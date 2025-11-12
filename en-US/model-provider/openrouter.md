@@ -50,3 +50,16 @@ Please be sure to save your API key properly, as it will only be displayed once.
 ::: danger
 Please note that the API key is sensitive information. Do not disclose it to anyone or share it in public.
 :::
+
+## Note
+
+If you want to use the free models provided by OpenRouter, you need to make additional settings, otherwise you will encounter errors when calling the free models.
+
+- Visit the [Training, Logging, & Privacy settings page](https://openrouter.ai/settings/privacy).
+
+- Check the `Enable free endpoints that may train on inputs` and `Enable free endpoints that may publish prompts` options to enable free models.
+
+<HorizontalCenterImg
+    src="/model-provider/openrouter/enable-free-models.webp"
+    alt="Enable free models"
+  />

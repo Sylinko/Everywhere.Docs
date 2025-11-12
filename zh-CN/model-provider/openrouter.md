@@ -50,3 +50,16 @@ OpenRouter 有免费模型可用，注册账户后即可使用。
 ::: danger
 请注意，API 密钥是敏感信息，请不要将其泄露给任何人或在公共场合分享。
 :::
+
+## 注意
+
+如果您希望使用 OpenRouter 提供的免费模型，您需要进行额外的设置，否则在调用免费模型时会遇到错误。
+
+- 访问 [Training, Logging, & Privacy 设置页面](https://openrouter.ai/settings/privacy)。
+
+- 勾选 `Enable free endpoints that may train on inputs` 和 `Enable free endpoints that may publish prompts` 选项以启用免费模型。
+
+<HorizontalCenterImg
+    src="/model-provider/openrouter/enable-free-models.webp"
+    alt="启用免费模型"
+  />
