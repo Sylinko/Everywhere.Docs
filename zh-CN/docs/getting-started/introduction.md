@@ -4,7 +4,7 @@
 
 ![banner](/banner.webp)
 
-`Everywhere` 是一款基于 [.NET](https://dotnet.microsoft.com/) 和 [Avalonia](https://avaloniaui.net/) 构建的具有上下文感知能力的交互式 AI 助手。与传统的聊天界面不同，Everywhere 直接集成到您的桌面环境中，感知您的屏幕内容，理解应用程序上下文，并代表您采取行动。
+**Everywhere** 是一款具备情境感知能力的交互式 AI 助手，拥有简洁现代的用户界面和强大的集成功能。与传统 AI 工具不同，Everywhere 能即时感知并理解您屏幕上的任何内容。无需截图、复制或切换应用——只需按下快捷键，即可在当前位置获得所需帮助，实现无缝的 AI 助手支持。
 
 ## 🌟 使用场景 {#use-cases}
 
@@ -82,10 +82,6 @@
           <img alt="Google logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/gemini-color.svg">
           <span>Google (Gemini)</span>
         </div>
-        <!-- <div class="icon-text">
-          <img alt="xAI (Grok) logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/xai.svg">
-          <span>xAI (Grok)</span>
-        </div> -->
         <div class="icon-text">
           <img alt="DeepSeek logo" src="https://registry.npmmirror.com/@lobehub/icons-static-svg/latest/files/icons/deepseek-color.svg">
           <span>DeepSeek</span>
@@ -114,17 +110,19 @@
     <tr>
       <td><b>⚙️ 工具集成</b></td>
       <td>
-        • 网页搜索
+        • 网络浏览器<br>
+        • 文件系统<br>
+        • 终端<br>
+        • Everything *(Windows)*
       </td>
-      <td>
-        • 系统 API<br>
+      <td><br>
         • MCP 工具
       </td>
     </tr>
     <tr>
-      <td><b>🫧 界面</b></td>
+      <td><b>🫧 交互</b></td>
       <td>
-        • 现代化磨砂玻璃界面<br>
+        • 现代磨砂玻璃界面<br>
         • 上下文感知<br>
         • 键盘快捷键<br>
         • Markdown 渲染
@@ -147,9 +145,7 @@
       <td><b>🌐 语言支持</b></td>
       <td>
         • 简体中文<br>
-        • English
-      </td>
-      <td>
+        • English<br>
         • Deutsch<br>
         • Español<br>
         • Français<br>
@@ -157,10 +153,13 @@
         • 日本語<br>
         • 한국어<br>
         • Русский<br>
+        • Türkçe<br>
         • 中文 (繁體)<br>
         • 中文 (繁體 香港特別行政區)<br><br>
-        <b>欢迎贡献</b><br>
-        <a href="https://crowdin.com/project/everywhere" rel="nofollow" target="_blank"><img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x" alt="Crowdin | Everywhere" /></a>
+      </td>
+      <td>
+        部分翻译由 AI 辅助完成，<br>
+        欢迎校对改进！<br><br>
       </td>
     </tr>
   </tbody>

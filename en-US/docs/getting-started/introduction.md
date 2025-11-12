@@ -4,7 +4,7 @@
 
 ![banner](/banner.webp)
 
-`Everywhere` is a context-aware, interactive AI assistant built on [.NET](https://dotnet.microsoft.com/) and [Avalonia](https://avaloniaui.net/). Unlike traditional chat interfaces, Everywhere integrates directly into your desktop environment, sensing your screen content, understanding application context, and taking action on your behalf.
+**Everywhere** is an interactive AI assistant with context-aware capabilities, featuring a sleek, modern UI and powerful integrated functionality. Unlike traditional AI tools, Everywhere instantly perceives and understands anything on your screen. No need for screenshots, copying, or switching apps—just press a shortcut key to get the help you need right where you are, delivering seamless AI assistant support.
 
 ## 🌟 Use Cases {#use-cases}
 
@@ -114,15 +114,17 @@
     <tr>
       <td><b>⚙️ Tool Integration</b></td>
       <td>
-        • Web Search
+        • Web Browser<br>
+        • File System<br>
+        • Terminal<br>
+        • Everything *(Windows)*
       </td>
       <td>
-        • System APIs<br>
-        • MCP tools<br>
+        • MCP tools
       </td>
     </tr>
     <tr>
-      <td><b>🫧 Interface</b></td>
+      <td><b>🫧 Interactive</b></td>
       <td>
         • Modern Frosted Glass UI<br>
         • Context-aware invocation<br>
@@ -147,9 +149,7 @@
       <td><b>🌐 Language Support</b></td>
       <td>
         • 简体中文<br>
-        • English
-      </td>
-      <td>
+        • English<br>
         • Deutsch<br>
         • Español<br>
         • Français<br>
@@ -157,10 +157,13 @@
         • 日本語<br>
         • 한국어<br>
         • Русский<br>
+        • Türkçe<br>
         • 中文 (繁體)<br>
         • 中文 (繁體 香港特別行政區)<br><br>
-        <b>Contributions Welcome</b><br>
-        <a href="https://crowdin.com/project/everywhere" rel="nofollow" target="_blank"><img style="width:140px;height:40px" src="https://badges.crowdin.net/badge/dark/crowdin-on-light.png" srcset="https://badges.crowdin.net/badge/dark/crowdin-on-light.png 1x,https://badges.crowdin.net/badge/dark/crowdin-on-light@2x.png 2x" alt="Crowdin | Everywhere" /></a>
+      </td>
+      <td>
+        Some translations were AI-assisted.<br>
+        Feedback and corrections are welcome!<br><br>
       </td>
     </tr>
   </tbody>
