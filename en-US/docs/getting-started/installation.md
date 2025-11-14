@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+  import LinkButton from "/.vitepress/components/Common/LinkButton.vue";
+</script>
+
 # Download and Install
 
 ::: tip
@@ -10,7 +14,13 @@ Currently, Everywhere only supports the Windows platform. (Minimum required vers
 
 ## Download
 
-Everywhere can be downloaded from [Github Releases](https://github.com/DearVa/Everywhere/releases/latest).
+<LinkButton
+    label="Go to Download Page"
+    class="mb-2"
+    href="/download"/>
+<LinkButton
+    label="Download the Latest Version on Github Releases"
+    href="https://github.com/DearVa/Everywhere/releases/latest"/>
 
 In each release, you can download either the installer (`.exe`) or the portable (`.zip`) version. The two versions have no differences other than their packaging method.
 

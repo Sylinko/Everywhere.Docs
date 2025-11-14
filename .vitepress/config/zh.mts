@@ -76,7 +76,7 @@ export const zh = defineConfig({
         ]
       },
       {
-        text: '模型服务商',
+        text: '模型提供商',
         items: [
           { text: 'OpenAI', link: '/zh-CN/model-provider/openai' },
           { text: 'Anthropic (Claude)', link: '/zh-CN/model-provider/anthropic' },

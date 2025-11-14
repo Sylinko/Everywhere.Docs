@@ -43,7 +43,7 @@ ChatGPT Plus/Team/Pro 或 Gemini Google One 等订阅服务是针对其官方网
 例如，一个常见的错误是将 `https://api.openai.com/v1` 误写为 `https://api.openai.com`。
 
 ::: tip 如何找到正确的 API 调用地址
-1. 如果您使用的模型服务商在 `Everywhere` 的官方支持列表中，请保持默认的调用地址不变。
+1. 如果您使用的模型提供商在 `Everywhere` 的官方支持列表中，请保持默认的调用地址不变。
 2. 如果您使用的是第三方或个人搭建的服务，请参考其官方文档，找到正确的 API 调用地址（也称为“端点”或 “Endpoint”）。
    
    以 OpenAI 兼容 API 为例，您需要找到类似 `https://api.example.com/v1/chat/completions` 的地址，然后去掉末尾的 `/chat/completions` 部分，得到 `https://api.example.com/v1`，并将其填入 `Everywhere` 的 API 调用地址栏中。
@@ -66,7 +66,7 @@ ChatGPT Plus/Team/Pro 或 Gemini Google One 等订阅服务是针对其官方网
 
 ### 其他已知问题
 
-请参阅[模型服务商 - 已知问题](/zh-CN/model-provider/known-issues)页面，了解当前已知的与模型服务商集成相关的问题和限制。
+请参阅[模型提供商 - 已知问题](/zh-CN/model-provider/known-issues)页面，了解当前已知的与模型提供商集成相关的问题和限制。
 
 ## 软件使用
 

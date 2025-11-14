@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+  import LinkButton from "/.vitepress/components/Common/LinkButton.vue";
+</script>
+
 # 下载与安装
 
 ::: tip
@@ -10,14 +14,13 @@ Everywhere 是一个开源项目，可以直接在 Github 上下载并使用。
 
 ## 下载
 
-Everywhere 可以从[Github Releases](https://github.com/DearVa/Everywhere/releases/latest)下载。
-
-::: tip 网络
-如果您的网络状况不佳，可以尝试将下载文件直链放到以下代理中：
-- [github.moeyy.xyz](https://github.moeyy.xyz)
-- [ghproxy.net](https://ghproxy.net/)
-- 或者自行寻找其他代理
-:::
+<LinkButton
+    label="前往下载页"
+    class="mb-2"
+    href="/download"/>
+<LinkButton
+    label="通过 Github Releases 下载最新版本"
+    href="https://github.com/DearVa/Everywhere/releases/latest"/>
 
 在每个发行版中，您可以下载到安装版(`.exe`)或便携版(`.zip`)，两个版本除了打包方式不同外无其他区别。
 - 安装版的文件名是`Everywhere-Windows-x64-Setup-v<版本号>.exe`
