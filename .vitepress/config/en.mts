@@ -25,6 +25,7 @@ export const en = defineConfig({
           { text: 'Introduction', link: '/en-US/docs/getting-started/introduction' },
           { text: 'Installation', link: '/en-US/docs/getting-started/installation' },
           { text: 'Use', link: '/en-US/docs/getting-started/use' },
+          { text: 'AI Assistant', link: '/en-US/docs/getting-started/ai-assistant' },
           { text: 'FAQ', link: '/en-US/docs/getting-started/faq' },
         ]
       },
