@@ -32,6 +32,7 @@ export const en = defineConfig({
       {
         text: 'Model Providers',
         items: [
+          { text: 'Overview', link: '/en-US/model-provider/index' },
           { text: 'OpenAI', link: '/en-US/model-provider/openai' },
           { text: 'Anthropic (Claude)', link: '/en-US/model-provider/anthropic' },
           { text: 'Google (Gemini)', link: '/en-US/model-provider/google' },
@@ -46,7 +47,8 @@ export const en = defineConfig({
       {
         text: 'Plugins',
         items: [
-          { text: 'Web Search', link: '/en-US/plugins/web-search' },
+          { text: 'Overview', link: '/en-US/chat-plugins/index' },
+          { text: 'Web Search', link: '/en-US/chat-plugins/web-search' },
         ]
       },
     ],

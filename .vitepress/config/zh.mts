@@ -79,6 +79,7 @@ export const zh = defineConfig({
       {
         text: '模型提供商',
         items: [
+          { text: '概览', link: '/zh-CN/model-provider/index' },
           { text: 'OpenAI', link: '/zh-CN/model-provider/openai' },
           { text: 'Anthropic (Claude)', link: '/zh-CN/model-provider/anthropic' },
           { text: 'Google (Gemini)', link: '/zh-CN/model-provider/google' },
@@ -93,7 +94,8 @@ export const zh = defineConfig({
       {
         text: '聊天插件',
         items: [
-          { text: '网络搜索', link: '/zh-CN/plugins/web-search' },
+          { text: '概览', link: '/zh-CN/chat-plugins/index' },
+          { text: '网络搜索', link: '/zh-CN/chat-plugins/web-search' },
         ]
       },
     ],
