@@ -2,7 +2,6 @@
 
 export const pairs = {
   // Home
-  'Core Members': '核心成员',
   'Lead Developer': '核心开发',
   'Product Operations': '产品运营',
   'Full Stack Developer': '全栈开发',
@@ -29,6 +28,8 @@ export const pairs = {
   'Coming Soon': '敬请期待',
   // About
   'About Everywhere': '关于 Everywhere',
+  'Core Members': '核心成员',
+  'Community Contributors': '社区贡献者',
   'Join Our Community': '社群',
   // 'The development is guided by 2 drop-out students.': '项目主要由两名辍学生开发。',
   // 'Our campus is the world; our vision is to be Everywhere.': '世界就是我们的校园，我们的愿景无处不在。',
