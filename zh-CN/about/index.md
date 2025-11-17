@@ -39,7 +39,7 @@ const t = useTranslate()
 </style>
 
 <div class="about-page">
-    <div class="about-container">
+    <div class="about-container mb-20">
         <h1 class="title">{{ t('About Everywhere') }}</h1>
         <CoreDevelopers class="mt-20" />
         <CommunityContributors class="mt-12" />

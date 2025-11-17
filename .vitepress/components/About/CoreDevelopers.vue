@@ -11,6 +11,8 @@ const members = computed(() => [
     avatar: 'https://github.com/DearVa.png',
     name: 'Dear.Va',
     title: t('Lead Developer'),
+    sponsor: 'https://afdian.tv/a/DearVa',
+    actionText: '爱发电',
     links: [
       { icon: 'github', link: 'https://github.com/DearVa' },
       {
@@ -23,6 +25,8 @@ const members = computed(() => [
     avatar: 'https://github.com/AuroraZiling.png',
     name: 'Artemis Li',
     title: t('Product Operations'),
+    sponsor: 'https://buymeacoffee.com/artemisli',
+    actionText: 'Buy Me A Coffee',
     links: [
       { icon: 'github', link: 'https://github.com/AuroraZiling' },
       {
