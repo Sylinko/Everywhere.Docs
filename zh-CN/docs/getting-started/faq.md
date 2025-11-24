@@ -62,7 +62,7 @@ ChatGPT Plus/Team/Pro 或 Gemini Google One 等订阅服务是针对其官方网
 
 然而，当我们通过 API 调用这些大语言模型时，我们使用的是它们最核心的文本生成功能，本身并不包含网络搜索。
 
-`Everywhere` 通过 API 与这些模型进行交互。因此，要启用网络搜索功能，需要借助一个外部的搜索引擎服务（例如 Google, Brave, Tavily, Bocha 等）。您需要在 `Everywhere` 中配置相应的搜索引擎服务，才能让 AI 在回答问题时具备联网搜索的能力。详见[聊天插件 - 网络搜索](/zh-CN/plugins/web-search)
+`Everywhere` 通过 API 与这些模型进行交互。因此，要启用网络搜索功能，需要借助一个外部的搜索引擎服务（例如 Google, Brave, Tavily, Bocha 等）。您需要在 `Everywhere` 中配置相应的搜索引擎服务，才能让 AI 在回答问题时具备联网搜索的能力。详见[聊天插件 - 网络搜索](/zh-CN/chat-plugins/web-search)
 
 ### 其他已知问题
 

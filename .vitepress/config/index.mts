@@ -7,7 +7,6 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ...shared,
-  ignoreDeadLinks: true,
   locales: {
     'en-US': {
       lang: 'en-US',

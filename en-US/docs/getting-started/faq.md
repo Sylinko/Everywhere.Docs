@@ -57,7 +57,7 @@ You may have noticed that when using services like ChatGPT, Gemini, or DeepSeek 
 
 However, when we call these large language models via API, we are using their core text generation function, which does not include web search.
 
-`Everywhere` interacts with these models via API. Therefore, to enable web search, you need an external search engine service (e.g., Google, Brave, Tavily, Bocha). You need to configure the corresponding search engine service in `Everywhere` to allow the AI to have web search capabilities when answering questions. For details, see [Chat Plugins - Web Search](/en-US/plugins/web-search).
+`Everywhere` interacts with these models via API. Therefore, to enable web search, you need an external search engine service (e.g., Google, Brave, Tavily, Bocha). You need to configure the corresponding search engine service in `Everywhere` to allow the AI to have web search capabilities when answering questions. For details, see [Chat Plugins - Web Search](/en-US/chat-plugins/web-search).
 
 ### Other Known Issues
 

@@ -29,7 +29,7 @@ You can find the Everywhere icon in the tray menu (bottom right corner on Window
 ::: tip Other Model Providers
 If you are not using the official service of any of the model providers shown in the figure (such as aggregated APIs, proxy APIs), you need to click the **Skip** button in the upper right corner, and add an assistant and manually configure the model provider information on the **AI Assistant** page in the left sidebar.
 
-For more information, please refer to [FAQ](/docs/getting-started/faq.md).
+For more information, please refer to [FAQ](/en-US/docs/getting-started/faq.md).
 :::
 
 - After selecting a model provider, you will be taken to the API Key entry page. You can also select a preset model to verify its validity and network environment after entering the API Key：

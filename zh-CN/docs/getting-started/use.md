@@ -29,7 +29,7 @@ Everywhere 介绍视频请参阅：[Bilibili](https://www.bilibili.com/video/BV1
 ::: tip 其他模型提供商
 如果您使用的不是图中所示任何一家模型提供商的官方服务（比如聚合API、代理API），您需要点击右上角的 **跳过** 按钮，在左侧边栏的 **AI助手** 页面中添加助手并手动配置模型提供商信息。
 
-更多请参阅[常见问题](/docs/getting-started/faq.md)。
+更多请参阅[常见问题](/zh-CN/docs/getting-started/faq.md)。
 :::
 
 - 选择模型提供商后，进入 API Key 填写页面，同时可以选择一个预设模型，用于在输入 API Key 后验证其有效性和网络环境：
