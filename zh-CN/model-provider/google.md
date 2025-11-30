@@ -6,10 +6,6 @@
 
 本教程将一步步指导您如何获取[Google Gemini](https://cloud.google.com/gemini)的API密钥。
 
-::: tip
-Gemini API 的一个显著优势是其慷慨的免费套餐，这在许多其他提供商中并不常见，您每天都可以获得一定配额的免费 API 调用。
-:::
-
 ::: warning
 - Google Gemini 目前仅支持部分国家和地区访问，若您所在地区不受支持，建议使用其他模型提供商。
 - 请注意，订阅 Gemini Pro 等付费计划与 API 服务是分开计费的。您仍然可能需要为 API 使用单独付费。
