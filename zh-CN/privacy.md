@@ -273,7 +273,7 @@ If you are a resident in the European Economic Area (EEA), United Kingdom (UK), 
 
 European Commission's Standard Contractual Clauses:
 
-We have implemented measures to protect your personal information, including by using the European Commission's Standard Contractual Clauses for transfers of personal information between our group companies and between us and our third-party providers. These clauses require all recipients to protect all personal information that they process originating from the EEA or UK in accordance with European data protection laws and regulations. Our Standard Contractual Clauses can be provided upon request. We have implemented similar appropriate safeguards with our third-party service providers and partners and further details can be provided upon request.
+We have implemented measures to protect your personal information. For transfers of personal information to our third-party service providers (such as AI model providers and payment processors) located outside the EEA or UK, we rely on the European Commission's Standard Contractual Clauses (SCCs) or other lawful transfer mechanisms embedded in our Data Processing Agreements with these providers.
 
 ## 9. How long do we keep your information?
 ***In Short:** We keep your information for as long as necessary to fulfill the purposes outlined in this Privacy Notice unless otherwise required by law.*
@@ -429,11 +429,11 @@ We may update this Privacy Notice from time to time. The updated version will be
 ## 16. How can you contact us about this notice?
 If you have questions or comments about this notice, you may email us at [privacy@sylinko.com](mailto:privacy@sylinko.com) or contact us by post at:
 
-Sylinko Inc.
-1111B S Governors Ave
-STE 43798
-Dover, DE 19904
-United States
+Sylinko Inc.  
+1111B S Governors Ave  
+STE 43798  
+Dover, DE 19904  
+United States  
 
 ## 17. How can you review, update, or delete the data we collect from you?
 Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please visit: [privacy@sylinko.com](mailto:privacy@sylinko.com).
