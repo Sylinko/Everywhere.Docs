@@ -108,9 +108,9 @@ We collect personal information that you voluntarily provide to us when you regi
 
 - *Push Notifications.* We may request to send you push notifications regarding your account or certain features of the application(s). If you wish to opt out from receiving these types of communications, you may turn them off in your device's settings.
 
-- *Telemetry & Diagnostics.* We use third-party services (specifically **Sentry**) to collect diagnostic data to identify software errors and improve stability.
-    - **Usage Data (Optional):** During the initial setup (OOBE) or within the application Settings, you can choose whether to share general usage statistics and performance data with us.
-    - **Crash Reporting (Essential):** If you choose **not** to share usage data, we will cease collecting behavioral statistics. However, we will still automatically collect **critical exception errors and crash logs**. This data is strictly limited to technical information required to identify and fix software bugs.
+- *Telemetry & Diagnostics.* We use third-party services (specifically **Sentry**) to collect diagnostic data to identify software errors and improve stability. We adopt a "Prior Opt-in" (Privacy by Default) approach:
+    - **Usage Data (Optional - Opt-in Only):** We do not collect general usage statistics or performance data by default. We will only collect this data if you explicitly consent (e.g., by checking a box during the initial setup/OOBE or manually enabling it in Settings). You have the right to withdraw this consent at any time.
+    - **Crash Reporting (Legitimate Interest):** Even if you do not opt-in to Usage Data, we may automatically collect **critical exception errors and crash logs** when the application fails. This data is strictly limited to technical information required to identify and fix software bugs and does not include your behavioral history.
 
 This information is primarily needed to maintain the security and operation of our application(s), for troubleshooting, and for our internal analytics and reporting purposes.
 
@@ -126,7 +126,7 @@ Like many businesses, we also collect information through cookies and similar te
 The information we collect includes:
 - *Log and Usage Data.* Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called "crash dumps"), and hardware settings).
 - *Device Data.* We collect device data such as information about your computer, phone, tablet, or other device you use to access the Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, Internet service provider and/or mobile carrier, operating system, and system configuration information.
-- *Location Data.* We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.
+- *Location Data.* We do not collect your precise geographic location (e.g., GPS data). We may determine your approximate location (such as country, region, or city) solely based on your IP address. This information is used for legitimate business purposes, such as to provide the Services in the appropriate language, calculate applicable taxes, prevent fraud, and facilitate security monitoring.
 - *Desktop Context & Screen Data:* To provide context-aware assistance, Everywhere may process content displayed on your screen (via screenshots or accessibility APIs). Crucially, this processing is performed locally on your device. We do not upload raw screen recordings or full screenshots to our servers unless you explicitly trigger a feature that requires cloud processing (e.g., sending a specific screenshot to an LLM).
 
 ### Google API
@@ -138,6 +138,8 @@ Our use of information received from Google APIs will adhere to [Google API Serv
 In order to enhance our ability to provide relevant marketing, offers, and services to you and update our records, we may obtain information about you from other sources, such as public databases, joint marketing partners, affiliate programs, data providers, social media platforms, and from other third parties. This information includes mailing addresses, job titles, email addresses, phone numbers, intent data (or user behavior data), Internet Protocol (IP) addresses, social media profiles, social media URLs, and custom profiles, for purposes of targeted advertising and event promotion.
 
 If you interact with us on a social media platform using your social media account (e.g., GitHub or Google), we receive personal information about you from such platforms such as your name, email address, and gender. You may have the right to withdraw your consent to processing your personal information. Learn more about [withdrawing your consent](#withdrawing-your-consent). Any personal information that we collect from your social media account depends on your social media account's privacy settings. Please note that their own use of your information is not governed by this Privacy Notice.
+
+**Data Controller:** For the purposes of the GDPR and UK GDPR, Sylinko Inc. is the Data Controller of your personal information.
 
 ## 2. How do we process your information?
 ***In Short:** We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We process the personal information for the following purposes listed below. We may also process your information for other purposes only with your prior explicit consent.*
@@ -230,12 +232,10 @@ We may share your information with Google Analytics to track and analyze the use
 
 As part of our Services, we offer products, features, or tools powered by artificial intelligence, machine learning, or similar technologies (collectively, "AI Products"). These tools are designed to enhance your experience and provide you with innovative solutions. The terms in this Privacy Notice govern your use of the AI Products within our Services.
 
-**Use of AI Technologies**
+**Use of AI Technologies**  
+We provide the AI Products through third-party service providers ("AI Service Providers"), including but not limited to major providers such as Anthropic, DeepSeek... and others listed in our application settings. As outlined in this Privacy Notice, your input, output, and personal information will be shared with and processed by these AI Service Providers to enable your use of our AI Products for purposes outlined in ["What legal bases do we rely on to process your personal information?"](#3-what-legal-bases-do-we-rely-on-to-process-your-personal-information) You must not use the AI Products in any way that violates the terms or policies of any AI Service Provider.
 
-We provide the AI Products through third-party service providers ("AI Service Providers"), including Anthropic, DeepSeek, Google Cloud AI, Microsoft Azure AI and OpenAI. As outlined in this Privacy Notice, your input, output, and personal information will be shared with and processed by these AI Service Providers to enable your use of our AI Products for purposes outlined in ["What legal bases do we rely on to process your personal information?"](#3-what-legal-bases-do-we-rely-on-to-process-your-personal-information) You must not use the AI Products in any way that violates the terms or policies of any AI Service Provider.
-
-**Our AI Products**
-
+**Our AI Products**  
 Our AI Products are designed for the following functions:
 - AI applications
 - AI automation
@@ -243,16 +243,16 @@ Our AI Products are designed for the following functions:
 - Natural language processing
 - Text analysis
 
-**How We Process Your Data Using AI**
-
+**How We Process Your Data Using AI**  
 All personal information processed using our AI Products is handled in line with our Privacy Notice and our agreement with third parties. This ensures high security and safeguards your personal information throughout the process, giving you peace of mind about your data's safety.
 
-**API Relay Services**
+**Accuracy of AI Processing**  
+You understand that our AI Products process data using probabilistic models to predict text. Due to this technical nature, the personal information or other content generated by the AI may not always be factually accurate. While you have the right to request correction of your personal data under applicable laws (see "[What are your privacy rights?](#12-what-are-your-privacy-rights)"), please note that the AI's output does not represent a verified database record.
 
-When you use our API relay services, your prompts and the AI's responses are transmitted through our servers to the third-party Model Providers (e.g., OpenAI, Anthropic). We do not store the content of your prompts or completions permanently. We only strictly retain metadata (token usage, timestamp, model type) for billing and abuse prevention purposes.
+**API Relay Services**  
+When you use our API relay services, your prompts and the AI's responses are transmitted through our servers to third-party Model Providers (e.g., OpenAI, Anthropic). Unlike some AI providers, we do not use your prompts, screen context, or outputs to train our own models, nor do we permanently store the content of your prompts or completions. We retain only metadata (such as token usage, timestamps, and model type) for billing and abuse prevention purposes.
 
-**How to Opt Out**
-
+**How to Opt Out**  
 We believe in giving you the power to decide how your data is used. To opt out, you can:
 - Log in to your account settings and update your user account
 - Contact us using the contact information provided
@@ -436,7 +436,7 @@ Dover, DE 19904
 United States  
 
 ## 17. How can you review, update, or delete the data we collect from you?
-Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please visit: [privacy@sylinko.com](mailto:privacy@sylinko.com).
+Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please contact us at: [privacy@sylinko.com](mailto:privacy@sylinko.com).
 
 ## 18. Governing Law & Dispute Resolution
 This Privacy Notice and your use of the Services are governed by the laws of the State of Delaware. Any dispute arising from or relating to the subject matter of this Policy shall be finally settled by arbitration in Delaware, using the English language.
