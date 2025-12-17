@@ -46,43 +46,7 @@ This Privacy Notice for Sylinko Inc. ("we," "us," or "our"), describes how and w
 **Want to learn more about what we do with any information we collect?** [Review the Privacy Notice in full](#table-of-contents).
 
 ## Table of Contents
-- [Privacy Policy](#privacy-policy)
-  - [Summary of Key Points](#summary-of-key-points)
-  - [Table of Contents](#table-of-contents)
-  - [1. What information do we collect?](#1-what-information-do-we-collect)
-    - [Personal information you disclose to us](#personal-information-you-disclose-to-us)
-    - [Information automatically collected](#information-automatically-collected)
-    - [Google API](#google-api)
-    - [Information collected from other sources](#information-collected-from-other-sources)
-  - [2. How do we process your information?](#2-how-do-we-process-your-information)
-  - [3. What legal bases do we rely on to process your personal information?](#3-what-legal-bases-do-we-rely-on-to-process-your-personal-information)
-  - [4. When and with whom do we share your personal information?](#4-when-and-with-whom-do-we-share-your-personal-information)
-  - [5. Do we use cookies and other tracking technologies?](#5-do-we-use-cookies-and-other-tracking-technologies)
-    - [Google Analytics](#google-analytics)
-  - [6. Do we offer artificial intelligence-based products?](#6-do-we-offer-artificial-intelligence-based-products)
-  - [7. How do we handle your social logins?](#7-how-do-we-handle-your-social-logins)
-  - [8. Is your information transferred internationally?](#8-is-your-information-transferred-internationally)
-  - [9. How long do we keep your information?](#9-how-long-do-we-keep-your-information)
-  - [10. How do we keep your information safe?](#10-how-do-we-keep-your-information-safe)
-  - [11. Do we collect information from minors?](#11-do-we-collect-information-from-minors)
-  - [12. What are your privacy rights?](#12-what-are-your-privacy-rights)
-    - [Withdrawing your consent](#withdrawing-your-consent)
-    - [Account Information](#account-information)
-  - [13. Controls for Do-Not-Track features](#13-controls-for-do-not-track-features)
-  - [14. Do United States residents have specific privacy rights?](#14-do-united-states-residents-have-specific-privacy-rights)
-    - [Categories of Personal Information We Collect](#categories-of-personal-information-we-collect)
-    - [Sources of Personal Information](#sources-of-personal-information)
-    - [How We Use and Share Personal Information](#how-we-use-and-share-personal-information)
-    - [Your Rights](#your-rights)
-    - [How to Exercise Your Rights](#how-to-exercise-your-rights)
-    - [Request Verification](#request-verification)
-    - [Appeals](#appeals)
-    - [California "Shine The Light" Law](#california-shine-the-light-law)
-  - [15. Do we make updates to this notice?](#15-do-we-make-updates-to-this-notice)
-  - [16. How can you contact us about this notice?](#16-how-can-you-contact-us-about-this-notice)
-  - [17. How can you review, update, or delete the data we collect from you?](#17-how-can-you-review-update-or-delete-the-data-we-collect-from-you)
-  - [18. Governing Law \& Dispute Resolution](#18-governing-law--dispute-resolution)
-
+[[toc]]
 
 ## 1. What information do we collect?
 ### Personal information you disclose to us
