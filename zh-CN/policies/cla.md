@@ -1,3 +1,8 @@
+---
+sidebar: false
+layout: home
+---
+
 # Contributor License Agreement - Everywhere
 
 This Contribution License Agreement (“Agreement”) is agreed to by the party signing below or confirming agreement via electronic means (“You”), and conveys certain license rights to Sylinko Inc. (including its founders and promoters during the entity formation period, collectively “Sylinko”) for Your contributions to Sylinko open-source projects. This Agreement is effective as of the date You Submit a Submission.

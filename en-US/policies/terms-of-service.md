@@ -1,7 +1,6 @@
 ---
 sidebar: false
 layout: home
-aside: true
 ---
 
 <br>
