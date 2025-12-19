@@ -2,9 +2,9 @@
   import HorizontalCenterImg from "/.vitepress/components/Common/HorizontalCenterImg.vue";
 </script>
 
-# 网络搜索
+# 网络浏览器
 
-Everywhere 支持通过网络搜索获取最新的信息。您可以选择使用 Google, Brave, Bocha, Tavily, Jina 或 SearXNG 作为搜索引擎。
+Everywhere 的网络浏览器插件支持**网络搜索**和**访问网页**功能。您可以选择使用 Google, Brave, Bocha, Tavily, Jina 或 SearXNG 作为搜索引擎。
 
 ## 使用 Google
 
@@ -29,7 +29,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 登录后，在页面左上方找到当前的默认项目，通常是*My First Project*，点击弹出**项目选择器**。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/google/project-manager.webp"
+    src="/chat-plugins/web-browser/google/project-manager.webp"
     alt="项目选择器"
     width="600px"
   />
@@ -37,7 +37,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 在项目选择器中，点击右上角的**New project**按钮，您将会跳转到一个新页面。在此处，您可以随意填上项目名称，无归属组织。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/google/create-project.webp"
+    src="/chat-plugins/web-browser/google/create-project.webp"
     alt="创建项目"
     width="500px"
   />
@@ -45,7 +45,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 成功创建后，前往[可编程搜索引擎控制台](https://programmablesearchengine.google.com/controlpanel/all)，点击右上角的**Add**按钮。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/google/create-new-search-engine.webp"
+    src="/chat-plugins/web-browser/google/create-new-search-engine.webp"
     alt="创建搜索引擎"
     width="500px"
   />
@@ -53,7 +53,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 在表单中，在 **Name your search engine** 的输入框中填入方便记忆的名称，将**What to search?** 选为 **Search the entire web**，其他设置项保持默认。通过人机验证后，点击**Create**。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/google/new-search-engine-form.webp"
+    src="/chat-plugins/web-browser/google/new-search-engine-form.webp"
     alt="配置搜索引擎"
     width="500px"
   />
@@ -61,7 +61,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 之后提示创建成功，点击**Customize**进入管理页面。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/google/create-new-search-engine-success.webp"
+    src="/chat-plugins/web-browser/google/create-new-search-engine-success.webp"
     alt="创建成功"
     width="500px"
   />
@@ -69,7 +69,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 在**Basic**卡片中，找到**Search engine ID**，复制该 ID 至 Everywhere 的**搜索引擎 ID**配置项中。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/google/get-search-engine-id.webp"
+    src="/chat-plugins/web-browser/google/get-search-engine-id.webp"
     alt="搜索引擎 ID"
     width="500px"
   />
@@ -77,7 +77,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 之后访问[Custom Search JSON API 指南](https://developers.google.com/custom-search/v1/overview)，找到**API key**部分，点击**Get a Key**。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/google/get-api-key.webp"
+    src="/chat-plugins/web-browser/google/get-api-key.webp"
     alt="API key"
     width="500px"
   />
@@ -85,7 +85,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 在弹出的页面中，选择先前创建的项目，点击**NEXT**。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/google/get-api-key-enable.webp"
+    src="/chat-plugins/web-browser/google/get-api-key-enable.webp"
     alt="选择项目"
     width="500px"
   />
@@ -93,7 +93,7 @@ Google 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 点击**CONFIRM AND CONTINUE**以确认在您的项目中启用 Custom Search API。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/google/get-api-key-confirm.webp"
+    src="/chat-plugins/web-browser/google/get-api-key-confirm.webp"
     alt="确认启用"
     width="500px"
   />
@@ -126,7 +126,7 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 访问[Brave Search API Dashboard](https://api-dashboard.search.brave.com/app/dashboard)
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/brave/homepage.webp"
+    src="/chat-plugins/web-browser/brave/homepage.webp"
     alt="主页"
     width="600px"
   />
@@ -134,7 +134,7 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 在页面左方侧边栏点击**Subscriptions**，选择您需要的订阅计划，点击**Subscribe**。*（此处以选择免费计划）*
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/brave/subscriptions.webp"
+    src="/chat-plugins/web-browser/brave/subscriptions.webp"
     alt="订阅计划"
     width="600px"
   />
@@ -142,7 +142,7 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 阅读并同意条款，进入付款界面选择您的付款方式，完成订阅。返回到**Subscriptions**页面，确保您的计划已成功订阅。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/brave/subscribed.webp"
+    src="/chat-plugins/web-browser/brave/subscribed.webp"
     alt="订阅成功"
     width="300px"
   />
@@ -150,7 +150,7 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 点击左方侧边栏的**API Keys**，然后点击右上角的**Add API key**。在弹出的对话框中，**Name**位置填写一个方便记忆的名称，**Subscription**位置选择您刚刚订阅的计划，点击**Add**。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/brave/create-api-key.webp"
+    src="/chat-plugins/web-browser/brave/create-api-key.webp"
     alt="添加 API key"
     width="400px"
   />
@@ -158,7 +158,7 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 成功创建后，您将会看到刚刚创建的 API key，点击**Copy**按钮复制该 key 至 Everywhere 的**API 密钥**配置项中，即可使用 Brave 的搜索服务。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/brave/api-key.webp"
+    src="/chat-plugins/web-browser/brave/api-key.webp"
     alt="复制 API key"
     width="600px"
   />
@@ -184,14 +184,14 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 访问[博查 AI 开放平台](https://api-dashboard.search.bochaai.com/app/dashboard)，点击左侧边栏的**API KEY管理**。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/bocha/homepage.webp"
+    src="/chat-plugins/web-browser/bocha/homepage.webp"
     alt="主页"
   />
 
 - 点击**创建 API KEY**，在弹出的对话框中点击**确认创建**。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/bocha/create-api-key.webp"
+    src="/chat-plugins/web-browser/bocha/create-api-key.webp"
     alt="创建 API key"
     width="400px"
   />
@@ -199,7 +199,7 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 成功创建后，您将会看到刚刚创建的 API key，点击右侧复制按钮将该 key 复制至 Everywhere 的**API 密钥**配置项中，即可使用博查的搜索服务。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/bocha/api-key.webp"
+    src="/chat-plugins/web-browser/bocha/api-key.webp"
     alt="复制 API key"
     width="400px"
   />
@@ -221,14 +221,14 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 访问[账户主页](https://app.tavily.com/home)，找到**Overview**页面下的**API Keys**部分。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/tavily/homepage.webp"
+    src="/chat-plugins/web-browser/tavily/homepage.webp"
     alt="主页"
   />
 
 - 点击旁边的加号按钮，弹出创建对话框。在**Key Name**位置填写一个方便记忆的名称，点击**Create**。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/tavily/create-api-key.webp"
+    src="/chat-plugins/web-browser/tavily/create-api-key.webp"
     alt="创建 API key"
     width="350px"
   />
@@ -236,7 +236,7 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 成功创建后，您将会看到刚刚创建的 API key，点击右侧复制按钮将该 key 复制至 Everywhere 的**API 密钥**配置项中，即可使用 Tavily 的搜索服务。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/tavily/api-key.webp"
+    src="/chat-plugins/web-browser/tavily/api-key.webp"
     alt="API key"
   />
 
@@ -257,7 +257,7 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - 访问[Dashboard](https://jina.ai/api-dashboard)，找到侧边栏的**Manage API Key**部分。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/jina/manage-api-key.webp"
+    src="/chat-plugins/web-browser/jina/manage-api-key.webp"
     alt="管理 API Key"
     width="550px"
   />
@@ -265,7 +265,7 @@ Brave 搜索服务目前仅支持部分国家和地区访问，若您所在地�
 - Jina 会保证您的账户至少有一个 API Key，点击该 key 旁边的复制按钮将该 key 复制至 Everywhere 的**API 密钥**配置项中，即可使用 Jina 的搜索服务。
 
 <HorizontalCenterImg
-    src="/chat-plugins/web-search/jina/get-api-key.webp"
+    src="/chat-plugins/web-browser/jina/get-api-key.webp"
     alt="获取 API Key"
     width="500px"
   />

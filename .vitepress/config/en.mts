@@ -49,7 +49,8 @@ export const en = defineConfig({
         text: 'Plugins',
         items: [
           { text: 'Overview', link: '/en-US/chat-plugins/index' },
-          { text: 'Web Search', link: '/en-US/chat-plugins/web-search' },
+          { text: 'Visual Tree', link: '/en-US/chat-plugins/visual-tree' },
+          { text: 'Web Browser', link: '/en-US/chat-plugins/web-browser' },
         ]
       },
     ],

@@ -96,7 +96,8 @@ export const zh = defineConfig({
         text: '聊天插件',
         items: [
           { text: '概览', link: '/zh-CN/chat-plugins/index' },
-          { text: '网络搜索', link: '/zh-CN/chat-plugins/web-search' },
+          { text: '视觉树', link: '/zh-CN/chat-plugins/visual-tree' },
+          { text: '网络浏览器', link: '/zh-CN/chat-plugins/web-browser' },
         ]
       },
     ],
