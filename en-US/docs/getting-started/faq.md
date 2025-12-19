@@ -30,8 +30,6 @@ For example, if you are using the `openai/gpt-oss-20b:free` model within OpenRou
 
 However, there are many third-party or self-hosted model services that are compatible with the OpenAI API format. Due to limited resources, we cannot test and adapt to all unofficially supported model providers. If you encounter issues while using an unofficially supported provider, we recommend that you first contact the service provider for technical support or switch to an officially supported one.
 
-We welcome community contributions to support new model providers, but please understand that the development team cannot provide troubleshooting and support for unofficially supported integrations.
-
 ### The AI gives no response
 
 If there is no response after asking a question (but status messages like **Analyze Context** are displayed), it might be due to an incorrect API Url configuration.
