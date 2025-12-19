@@ -33,7 +33,7 @@ export const en = defineConfig({
       {
         text: 'Model Providers',
         items: [
-          { text: 'Overview', link: '/en-US/model-provider/index' },
+          { text: 'Overview', link: '/en-US/model-provider/' },
           { text: 'OpenAI', link: '/en-US/model-provider/openai' },
           { text: 'Anthropic (Claude)', link: '/en-US/model-provider/anthropic' },
           { text: 'Google (Gemini)', link: '/en-US/model-provider/google' },
@@ -42,7 +42,6 @@ export const en = defineConfig({
           { text: 'OpenRouter', link: '/en-US/model-provider/openrouter' },
           { text: 'SiliconCloud (SiliconFlow)', link: '/en-US/model-provider/siliconcloud' },
           { text: 'Ollama', link: '/en-US/model-provider/ollama' },
-          { text: 'Known Issues', link: '/en-US/model-provider/known-issues' },
         ]
       },
       {

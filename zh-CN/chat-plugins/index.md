@@ -11,7 +11,7 @@ next: false
 
 Everywhere 的聊天插件允许语言模型调用外部工具来完成更复杂的任务。
 
-Everywhere 支持内置插件以及基于 **MCP (Model Context Protocol)** 协议的插件。
+Everywhere 支持 **内置插件** 以及基于 **MCP (Model Context Protocol)** 协议的插件。
 
 ## 如何使用内置插件
 
@@ -25,7 +25,7 @@ Everywhere 支持内置插件以及基于 **MCP (Model Context Protocol)** 协�
     width="450px"
   />
 
-2.  在与模型聊天时，请确保：
+2.  在与模型聊天时，<mark>请确保</mark>：
     *   你使用的模型支持工具调用（Tool Calling / Function Calling）。
     *   在聊天窗口中启用了 **工具调用** 选项。
 

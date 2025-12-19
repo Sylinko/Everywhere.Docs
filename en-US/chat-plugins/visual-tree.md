@@ -22,11 +22,11 @@ This plugin provides three additional capabilities:
 
 ### Manipulating UI Elements
 
-The decision to execute UI manipulation actions is up to the large model. Typically, models may be reluctant to perform such actions, and the results can sometimes be unsatisfactory.
+The decision to execute UI manipulation actions is up to the large model. <mark>Typically, models may be reluctant to perform such actions</mark>, and the results can sometimes be unsatisfactory.
 
 ### Software Compatibility
 
-Since the visual tree is obtained via UI automation, content cannot be retrieved from software that does not support accessibility features (such as WeChat). Additionally, applications like games are not supported.
+Since the visual tree is obtained via UI automation, <mark>content cannot be retrieved from software that does not support accessibility features (such as WeChat)</mark>. Additionally, applications like games are not supported.
 
 ### Real-time
 

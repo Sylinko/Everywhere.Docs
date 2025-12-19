@@ -62,7 +62,7 @@ Unlike traditional tools like ChatGPT, you can perceive and understand anything 
 
 Everywhere supports multiple AI model providers. You can select a suitable template from the dropdown menu. Each template presets some common configuration options to help you quickly set up the assistant.
 
-For model providers not listed in the templates, you can choose a template with a similar request method and then manually adjust the relevant configurations.
+For model providers not listed in the templates, you can <mark>choose a template with a similar request method</mark> and then manually adjust the relevant configurations.
 
 ### API Url <Badge type="danger" text="API" />
 
@@ -85,7 +85,7 @@ Please note that API keys are sensitive information. Do not disclose them to any
 Select the model definition template corresponding to the model provider you are using. Each template presets some common model names and parameters to help you quickly set up the assistant.
 
 ::: tip Other Models
-If the model you want to use is not in the template list, you can ignore this option and directly enter the model ID you want to use in the **Model ID** field below.
+<mark>If the model you want to use is not in the template list, you can ignore this option</mark> and directly enter the model ID you want to use in the **Model ID** field below.
 
 The specific format for the **Model ID** varies among model providers. Please refer to the corresponding documentation for instructions.
 :::

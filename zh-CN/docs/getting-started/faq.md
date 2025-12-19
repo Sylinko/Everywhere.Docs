@@ -10,7 +10,7 @@
 
 ChatGPT Plus/Team/Pro 或 Gemini Google One 等订阅服务是针对其官方网站、App 等产品的，与 API 服务是分开计费的。
 
-你需要为 API 服务单独充值。
+<mark>你需要为 API 服务单独充值。</mark>
 
 ## 服务提供商
 
@@ -30,9 +30,9 @@ ChatGPT Plus/Team/Pro 或 Gemini Google One 等订阅服务是针对其官方网
 
 ### 为什么我使用的（非官方支持的）模型提供商无法正常工作？
 
-`Everywhere` 支持一系列主流的模型提供商（例如 OpenAI, Gemini, DeepSeek 等）。对于这些官方支持的提供商，我们会尽力确保其兼容性和稳定性。
+`Everywhere` 支持一系列主流的模型提供商（例如 OpenAI, Gemini, DeepSeek 等）。<mark>对于这些官方支持的提供商，我们会尽力确保其兼容性和稳定性。</mark>
 
-然而，市面上存在大量兼容 OpenAI API 格式的第三方或个人搭建的模型服务。由于精力有限，我们无法对所有非官方支持的模型提供商进行测试和适配。如果您在使用非官方支持的模型提供商时遇到问题，我们建议您首先联系该服务的提供方寻求技术支持，或者切换到官方支持的模型提供商。
+然而，市面上存在大量兼容 OpenAI API 格式的第三方或个人搭建的模型服务。<mark>由于精力有限，我们无法对所有非官方支持的模型提供商进行测试和适配。</mark>如果您在使用非官方支持的模型提供商时遇到问题，我们建议您首先联系该服务的提供方寻求技术支持，或者切换到官方支持的模型提供商。
 
 ### AI 没有给出任何回答
 
@@ -60,11 +60,7 @@ ChatGPT Plus/Team/Pro 或 Gemini Google One 等订阅服务是针对其官方网
 
 然而，当我们通过 API 调用这些大语言模型时，我们使用的是它们最核心的文本生成功能，本身并不包含网络搜索。
 
-`Everywhere` 通过 API 与这些模型进行交互。因此，要启用网络搜索功能，需要借助一个外部的搜索引擎服务（例如 Google, Brave, Tavily, Bocha 等）。您需要在 `Everywhere` 中配置相应的搜索引擎服务，才能让 AI 在回答问题时具备联网搜索的能力。详见[聊天插件 - 网络搜索](/zh-CN/chat-plugins/web-browser)
-
-### 其他已知问题
-
-请参阅[模型提供商 - 已知问题](/zh-CN/model-provider/known-issues)页面，了解当前已知的与模型提供商集成相关的问题和限制。
+`Everywhere` 通过 API 与这些模型进行交互。因此，要启用网络搜索功能，需要借助一个外部的搜索引擎服务（例如 Google, Brave, Tavily, Bocha 等）。您需要在 `Everywhere` 中配置相应的搜索引擎服务，才能让 AI 在回答问题时具备联网搜索的能力。详见[[zh-CN/chat-plugins/web-browser|聊天插件 - 网络浏览器]]
 
 ## 软件使用
 

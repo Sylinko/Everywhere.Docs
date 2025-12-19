@@ -80,7 +80,7 @@ export const zh = defineConfig({
       {
         text: '模型提供商',
         items: [
-          { text: '概览', link: '/zh-CN/model-provider/index' },
+          { text: '概览', link: '/zh-CN/model-provider/' },
           { text: 'OpenAI', link: '/zh-CN/model-provider/openai' },
           { text: 'Anthropic (Claude)', link: '/zh-CN/model-provider/anthropic' },
           { text: 'Google (Gemini)', link: '/zh-CN/model-provider/google' },
@@ -89,7 +89,6 @@ export const zh = defineConfig({
           { text: 'OpenRouter', link: '/zh-CN/model-provider/openrouter' },
           { text: 'SiliconCloud (硅基流动)', link: '/zh-CN/model-provider/siliconcloud' },
           { text: 'Ollama', link: '/zh-CN/model-provider/ollama' },
-          { text: '已知问题', link: '/zh-CN/model-provider/known-issues' },
         ]
       },
       {

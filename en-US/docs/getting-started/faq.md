@@ -10,7 +10,7 @@
 
 ChatGPT Plus/Team/Pro or Gemini Google One subscription services are billed separately from the API services.
 
-You need to top up your balance for the API services separately.
+<mark>You need to top up your balance for the API services separately.</mark>
 
 ## Model Providers
 
@@ -26,9 +26,9 @@ For example, if you are using the `openai/gpt-oss-20b:free` model within OpenRou
 
 ### Why isn't my (unofficially supported) model provider working?
 
-`Everywhere` supports a range of major model providers (e.g., OpenAI, Gemini, DeepSeek). For these officially supported providers, we strive to ensure their compatibility and stability.
+`Everywhere` supports a range of major model providers (e.g., OpenAI, Gemini, DeepSeek). <mark>For these officially supported providers, we strive to ensure their compatibility and stability.</mark>
 
-However, there are many third-party or self-hosted model services that are compatible with the OpenAI API format. Due to limited resources, we cannot test and adapt to all unofficially supported model providers. If you encounter issues while using an unofficially supported provider, we recommend that you first contact the service provider for technical support or switch to an officially supported one.
+However, there are many third-party or self-hosted model services that are compatible with the OpenAI API format. <mark>Due to limited resources, we cannot test and adapt to all unofficially supported model providers.</mark> If you encounter issues while using an unofficially supported provider, we recommend that you first contact the service provider for technical support or switch to an officially supported one.
 
 ### The AI gives no response
 
@@ -55,11 +55,7 @@ You may have noticed that when using services like ChatGPT, Gemini, or DeepSeek 
 
 However, when we call these large language models via API, we are using their core text generation function, which does not include web search.
 
-`Everywhere` interacts with these models via API. Therefore, to enable web search, you need an external search engine service (e.g., Google, Brave, Tavily, Bocha). You need to configure the corresponding search engine service in `Everywhere` to allow the AI to have web search capabilities when answering questions. For details, see [Chat Plugins - Web Search](/en-US/chat-plugins/web-browser).
-
-### Other Known Issues
-
-Please refer to the [Model Providers - Known Issues](/en-US/model-provider/known-issues) page for current known issues and limitations related to model provider integrations.
+`Everywhere` interacts with these models via API. Therefore, to enable web search, you need an external search engine service (e.g., Google, Brave, Tavily, Bocha). You need to configure the corresponding search engine service in `Everywhere` to allow the AI to have web search capabilities when answering questions. For details, see [[zh-CN/chat-plugins/web-browser|Chat Plugins - Web Browser]].
 
 ## Software Usage
 
