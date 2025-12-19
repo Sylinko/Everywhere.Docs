@@ -11,7 +11,7 @@ next: false
 
 Everywhere's chat plugins allow language models to call external tools to accomplish more complex tasks.
 
-Currently, Everywhere only supports built-in plugins. We are actively developing and will soon launch an MCP-based integration method, so stay tuned.
+Everywhere supports built-in plugins as well as plugins based on the **MCP (Model Context Protocol)**.
 
 ## How to Use Built-in Plugins
 

@@ -11,7 +11,7 @@ next: false
 
 Everywhere 的聊天插件允许语言模型调用外部工具来完成更复杂的任务。
 
-目前，Everywhere 仅支持内置插件。我们正在积极开发中，很快就会推出基于 MCP 的接入方式，敬请期待。
+Everywhere 支持内置插件以及基于 **MCP (Model Context Protocol)** 协议的插件。
 
 ## 如何使用内置插件
 
