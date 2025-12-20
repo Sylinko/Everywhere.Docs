@@ -8,7 +8,7 @@ layout: page
 <script setup>
 import CoreDevelopers from '../../.vitepress/components/About/CoreDevelopers.vue'
 import CommunityContributors from '../../.vitepress/components/About/CommunityContributors.vue'
-import Groups from '../../.vitepress/components/About/Groups.vue'
+import CommunitySponsors from '../../.vitepress/components/About/CommunitySponsors.vue'
 
 import { useTranslate } from '../../.vitepress/components/i18n.ts'
 const t = useTranslate()
@@ -43,6 +43,6 @@ const t = useTranslate()
         <h1 class="title">{{ t('About Everywhere') }}</h1>
         <CoreDevelopers class="mt-20" />
         <CommunityContributors class="mt-12" />
-        <Groups class="mt-16" />
+        <CommunitySponsors class="mt-12" />
     </div>
 </div>
