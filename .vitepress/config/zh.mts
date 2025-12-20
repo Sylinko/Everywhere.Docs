@@ -100,10 +100,5 @@ export const zh = defineConfig({
         ]
       },
     ],
-
-    footer: {
-      message: '基于 Apache 2.0 许可发布',
-      copyright: `版权所有 © ${new Date().getFullYear()} DearVa, AuroraZiling and contributors.`
-    },
   }
 })

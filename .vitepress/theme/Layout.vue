@@ -5,8 +5,9 @@ import { watchEffect, ref } from 'vue'
 import { NolebaseHighlightTargetedHeading } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
 import { NolebaseEnhancedReadabilitiesMenu, NolebaseEnhancedReadabilitiesScreenMenu, } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
+import CustomFooter from '../components/Common/CustomFooter.vue'
 
-const { lang } = useData();
+const { lang, frontmatter } = useData();
 const isRedirecting = ref(false);
 
 const detectBrowserLanguage = (): string => {
@@ -60,6 +61,9 @@ watchEffect(() => {
     </template>
     <template #layout-top>
       <NolebaseHighlightTargetedHeading />
+    </template>
+    <template #layout-bottom>
+      <CustomFooter v-if="frontmatter.layout === 'home' || frontmatter.layout === 'page'" />
     </template>
   </DefaultTheme.Layout>
 </template>
