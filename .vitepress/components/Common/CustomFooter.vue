@@ -130,7 +130,7 @@ const links = computed(() => {
           Released under the <a href="https://github.com/DearVa/Everywhere/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">Business Source License 1.1</a>.
         </p>
         <p class="copyright">
-          Copyright © {{ currentYear }} Sylinko
+          Copyright © {{ currentYear }} Sylinko Inc. All rights reserved.
         </p>
       </div>
     </div>
