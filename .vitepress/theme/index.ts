@@ -8,7 +8,7 @@ import '@nolebase/vitepress-plugin-enhanced-mark/client/style.css'
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }: { app: any }) { 
-    app.use(NolebaseInlineLinkPreviewPlugin) 
+    app.use(NolebaseInlineLinkPreviewPlugin)
   },
   Layout
 }

@@ -55,12 +55,6 @@ h1 {
   font-size: 28px;
   font-weight: 600;
 }
-/* p {
-  margin: 0;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--vp-c-text-2);
-} */
 </style>
 
 <template>

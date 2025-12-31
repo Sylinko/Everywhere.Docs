@@ -26,7 +26,6 @@ const isComponentIcon = computed(() => {
   return t === 'object' || t === 'function'
 })
 
-const hasOnlyIcon = computed(() => !props.label)
 const ariaLabel = computed(() => props.label || undefined)
 </script>
 

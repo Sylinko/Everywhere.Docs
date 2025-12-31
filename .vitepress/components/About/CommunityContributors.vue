@@ -82,7 +82,8 @@ h1 {
               rel="noopener"
               class="member-link"
             >
-<span class="vpi-social-github" style="--icon: url('https://api.iconify.design/simple-icons/github.svg');"></span>            </a>
+              <span class="vpi-social-github" style="--icon: url('https://api.iconify.design/simple-icons/github.svg');"></span>
+            </a>
           </div>
         </div>
       </li>

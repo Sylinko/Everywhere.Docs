@@ -10,20 +10,17 @@ const socialLinks = [
   {
     icon: 'https://api.iconify.design/simple-icons/bilibili.svg',
     link: 'https://space.bilibili.com/12879829',
-    ariaLabel: 'Bilibili',
-    inversedIconColor: true
+    ariaLabel: 'Bilibili'
   },
   {
     icon: 'https://api.iconify.design/simple-icons/youtube.svg',
     link: 'https://www.youtube.com/@everywhere_official',
-    ariaLabel: 'YouTube',
-    inversedIconColor: true
+    ariaLabel: 'YouTube'
   },
   {
     icon: 'https://api.iconify.design/simple-icons/xiaohongshu.svg',
     link: 'https://www.xiaohongshu.com/user/profile/60261d54000000000101f684',
-    ariaLabel: 'Xiaohongshu',
-    inversedIconColor: true
+    ariaLabel: 'Xiaohongshu'
   }
 ]
 
@@ -31,14 +28,12 @@ const communityLinks = [
   {
     icon: 'https://api.iconify.design/simple-icons/discord.svg',
     link: 'https://discord.gg/5fyg6nE3yn',
-    ariaLabel: 'Discord',
-    inversedIconColor: true
+    ariaLabel: 'Discord'
   },
   {
     icon: 'https://api.iconify.design/simple-icons/qq.svg',
     link: 'https://qm.qq.com/cgi-bin/qm/qr?k=wp9aDBBnLc7pYATqT99tB-N2ZP2ETmJC&jump_from=webapi&authKey=97qUJfsQoI70dUNcgBZ0C3HCZeiEn8inLT7pzg8x+KinbQwfIrHFu3dB2+aHMbRD',
-    ariaLabel: 'QQ',
-    inversedIconColor: true
+    ariaLabel: 'QQ'
   }
 ]
 
@@ -81,10 +76,9 @@ const links = computed(() => {
               v-for="social in communityLinks" 
               :key="social.link" 
               :href="social.link" 
-              class="social-link" 
+              class="social-link inversed-icon" 
               target="_blank" 
               rel="noopener noreferrer"
-              :class="{ 'inversed-icon': social.inversedIconColor }"
               :aria-label="social.ariaLabel"
             >
               <img :src="social.icon" class="icon" :alt="social.ariaLabel" />
@@ -97,10 +91,9 @@ const links = computed(() => {
               v-for="social in socialLinks" 
               :key="social.link" 
               :href="social.link" 
-              class="social-link" 
+              class="social-link inversed-icon" 
               target="_blank" 
               rel="noopener noreferrer"
-              :class="{ 'inversed-icon': social.inversedIconColor }"
               :aria-label="social.ariaLabel"
             >
               <img :src="social.icon" class="icon" :alt="social.ariaLabel" />
@@ -125,12 +118,20 @@ const links = computed(() => {
         </div>
       </div>
       
-      <div class="bottom">
+      <div class="bottom" v-if="getCurrentLang() === 'en-US'">
         <p class="message">
           Released under the <a href="https://github.com/DearVa/Everywhere/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">Business Source License 1.1</a>.
         </p>
         <p class="copyright">
           Copyright © {{ currentYear }} Sylinko Inc. All rights reserved.
+        </p>
+      </div>
+      <div class="bottom" v-else>
+        <p class="message">
+          基于 <a href="https://github.com/DearVa/Everywhere/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">Business Source License 1.1</a> 许可发布
+        </p>
+        <p class="copyright">
+          版权所有 © {{ currentYear }} Sylinko Inc. 保留所有权利
         </p>
       </div>
     </div>

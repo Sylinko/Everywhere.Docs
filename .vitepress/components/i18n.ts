@@ -42,8 +42,6 @@ export const pairs = {
   'Contact Us': '联系我们',
   'Join Our Community': '加入社群',
   'Follow Us': '关注我们',
-  // 'The development is guided by 2 drop-out students.': '项目主要由两名辍学生开发。',
-  // 'Our campus is the world; our vision is to be Everywhere.': '世界就是我们的校园，我们的愿景无处不在。',
 }
 
 import { useData } from 'vitepress'
@@ -58,10 +56,6 @@ export function useTranslate(lang?: string) {
 
 export function t(key: string, lang: string) {
   return langMap[lang]?.[key] || key;
-}
-
-export function createTranslate(lang: string) {
-  return (key: string) => t(key, lang);
 }
 
 export function getCurrentLang() {
