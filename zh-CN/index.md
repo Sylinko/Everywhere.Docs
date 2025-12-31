@@ -49,13 +49,13 @@ div.VPHomeHero span.text {
 </style>
 
 <div class="mt-12 mb-24 space-y-20">
-  <HomeSupportedModels/>
-  <HomeSponsors/>
-  <HomeShowcases lang="zh-CN"/>
+  <SupportedModels/>
+  <Sponsors/>
+  <Showcases/>
 </div>
 
 <script lang="ts" setup>
-  import HomeSupportedModels from "/.vitepress/components/Home/HomeSupportedModels.vue";
-  import HomeSponsors from "/.vitepress/components/Home/HomeSponsors.vue";
-  import HomeShowcases from "/.vitepress/components/Home/HomeShowcases.vue";
+  import SupportedModels from "/.vitepress/components/Home/SupportedModels.vue";
+  import Sponsors from "/.vitepress/components/Home/Sponsors.vue";
+  import Showcases from "/.vitepress/components/Home/Showcases.vue";
 </script>
